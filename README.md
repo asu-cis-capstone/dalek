@@ -16,7 +16,9 @@ Dalek is a tool that improves restaurant hospitality organization, communication
   - Usage Examples: **In Development**
   
 ##To-Do List
-  
+  - Get application owner requirements
+  - Organize requirements
+  - Generate backlog
 ##Release Notes
   Version 0.1 **In Development**
   

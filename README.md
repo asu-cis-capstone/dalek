@@ -30,4 +30,4 @@ Dalek is a tool that improves restaurant hospitality organization, communication
 * Jon
   
 ##Wish to Contribute?
-Any developement help is appreciated from the coding community.  We understand that we are students and still have much to learn about software development.  
+Any development help is appreciated from the coding community.  We understand that we are students and still have much to learn about software development.  

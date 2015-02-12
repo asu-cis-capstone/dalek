@@ -13,7 +13,6 @@ Dalek is a tool that improves restaurant hospitality organization, communication
 
 ##Getting Started
 **System Requirements [In Development]**
-- *In Development*
 
 **How to Install [for Developers]**
 

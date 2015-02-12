@@ -12,8 +12,17 @@ This repository contains project materials for Team Dalek at Arizona State Unive
 Dalek is a tool that improves restaurant hospitality organization, communication, and planning through a mobile application.
 
 ##Getting Started
-  - How to Install: **In Development**
-  - Usage Examples: **In Development**
+**System Requirements [In Development]**
+- *In Development*
+
+**How to Install [for Developers]**
+
+1. Go to the **home** branch of the Dalek repo: `https://github.com/asu-cis-capstone/dalek/tree/home`.
+2. Download and save the ZIP file by clicking on **Download ZIP** [Located near the bottom right-hand corner].
+3. Extract all file in the ZIP.
+4. Open the **tabler.sln** solution in Visual Studio.
+
+**Usage Examples [In Development]**
   
 ##Release Notes
   - Version 0.1: Describes the concept of the project and presents some concept art.

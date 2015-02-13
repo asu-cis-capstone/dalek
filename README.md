@@ -9,10 +9,12 @@ This repository contains project materials for Team Dalek at Arizona State Unive
 **NOTE: This document is subject to change periodically as new information becomes available.**
 
 ##Elevator Pitch
-Dalek is a tool that improves restaurant hospitality organization, communication, and planning through a mobile application.
+Dalek is a tool that improves restaurant hospitality organization, communication, and planning through a webpage.
 
 ##Getting Started
 **System Requirements [In Development]**
+* Visual Studio Community 2013
+* Microsoft Azure
 
 **How to Install [for Developers]**
 

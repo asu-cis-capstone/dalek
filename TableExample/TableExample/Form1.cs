@@ -17,6 +17,11 @@ namespace TableExample
             InitializeComponent();
         }
 
+        public void Table_Analytics()
+        {
+
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             
@@ -57,6 +62,12 @@ namespace TableExample
                     break;
             }
 
+
+        }
+
+        private void PictureClick(object sender, EventArgs e)
+        {
+            
         }
     }
 }

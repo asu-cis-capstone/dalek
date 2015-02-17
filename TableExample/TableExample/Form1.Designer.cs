@@ -838,7 +838,7 @@
             this.button65.Name = "button65";
             this.button65.Size = new System.Drawing.Size(50, 50);
             this.button65.TabIndex = 68;
-            this.button65.Text = "67";
+            this.button65.Text = "301";
             this.button65.UseVisualStyleBackColor = false;
             this.button65.Click += new System.EventHandler(this.TableFunction);
             // 
@@ -850,7 +850,7 @@
             this.button66.Name = "button66";
             this.button66.Size = new System.Drawing.Size(50, 50);
             this.button66.TabIndex = 69;
-            this.button66.Text = "67";
+            this.button66.Text = "308";
             this.button66.UseVisualStyleBackColor = false;
             this.button66.Click += new System.EventHandler(this.TableFunction);
             // 
@@ -862,7 +862,7 @@
             this.button67.Name = "button67";
             this.button67.Size = new System.Drawing.Size(50, 50);
             this.button67.TabIndex = 70;
-            this.button67.Text = "67";
+            this.button67.Text = "302";
             this.button67.UseVisualStyleBackColor = false;
             this.button67.Click += new System.EventHandler(this.TableFunction);
             // 
@@ -874,7 +874,7 @@
             this.button68.Name = "button68";
             this.button68.Size = new System.Drawing.Size(50, 50);
             this.button68.TabIndex = 71;
-            this.button68.Text = "67";
+            this.button68.Text = "303";
             this.button68.UseVisualStyleBackColor = false;
             this.button68.Click += new System.EventHandler(this.TableFunction);
             // 
@@ -886,7 +886,7 @@
             this.button69.Name = "button69";
             this.button69.Size = new System.Drawing.Size(50, 50);
             this.button69.TabIndex = 72;
-            this.button69.Text = "67";
+            this.button69.Text = "307";
             this.button69.UseVisualStyleBackColor = false;
             this.button69.Click += new System.EventHandler(this.TableFunction);
             // 
@@ -898,7 +898,7 @@
             this.button70.Name = "button70";
             this.button70.Size = new System.Drawing.Size(50, 50);
             this.button70.TabIndex = 73;
-            this.button70.Text = "67";
+            this.button70.Text = "306";
             this.button70.UseVisualStyleBackColor = false;
             this.button70.Click += new System.EventHandler(this.TableFunction);
             // 
@@ -910,7 +910,7 @@
             this.button71.Name = "button71";
             this.button71.Size = new System.Drawing.Size(50, 50);
             this.button71.TabIndex = 74;
-            this.button71.Text = "67";
+            this.button71.Text = "304";
             this.button71.UseVisualStyleBackColor = false;
             this.button71.Click += new System.EventHandler(this.TableFunction);
             // 
@@ -922,7 +922,7 @@
             this.button72.Name = "button72";
             this.button72.Size = new System.Drawing.Size(50, 50);
             this.button72.TabIndex = 75;
-            this.button72.Text = "67";
+            this.button72.Text = "305";
             this.button72.UseVisualStyleBackColor = false;
             this.button72.Click += new System.EventHandler(this.TableFunction);
             // 
@@ -1083,6 +1083,9 @@
             this.Controls.Add(this.button11);
             this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "FloorChart";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Gateway";

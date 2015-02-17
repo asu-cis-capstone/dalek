@@ -32,37 +32,53 @@ namespace TableExample
 
         private void TableFunction(object sender, EventArgs e)
         {
-            int colorReference;
+            string colorReference;
             Button tableButton = (Button)sender;
             if (tableButton.BackColor==Color.Green)
             {
-                colorReference = 1;
+                colorReference = "Green";
             }
             else if (tableButton.BackColor==Color.Yellow)
             {
-                colorReference = 2;
+                colorReference = "Yellow";
             }
             else
             {
-                colorReference = 3;
+                colorReference = "Red";
             }
 
             switch (colorReference)
             {
-                case 1:
+                case "Green":
                     tableButton.BackColor = Color.Yellow;
                     break;
-                case 2:
+                case "Yellow":
                     tableButton.BackColor = Color.Red;
                     break;
-                case 3:
+                case "Red":
                     tableButton.BackColor = Color.Green;
                     break;
                 default:
                     break;
             }
+            TableTimeStamp(tableButton.Name, colorReference);
 
+        }
 
+        public void TableTimeStamp(string tableNumber, string tableStatus)
+        {
+            if (tableStatus=="Green")
+            {
+                
+            }
+            else if (tableStatus=="Yellow")
+            {
+                
+            }
+            else if(tableStatus=="Red")
+            {
+
+            }
         }
 
         private void PictureClick(object sender, EventArgs e)

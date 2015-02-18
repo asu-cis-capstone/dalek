@@ -108,6 +108,7 @@
             this.satLbl = new System.Windows.Forms.Label();
             this.dirtyLbl = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button73 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -184,7 +185,7 @@
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(53, 34);
             this.button15.TabIndex = 13;
-            this.button15.Text = "a";
+            this.button15.Text = "76";
             this.button15.UseVisualStyleBackColor = false;
             this.button15.Click += new System.EventHandler(this.TableFunction);
             // 
@@ -997,6 +998,18 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.PictureClick);
             // 
+            // button73
+            // 
+            this.button73.BackColor = System.Drawing.Color.Blue;
+            this.button73.ForeColor = System.Drawing.Color.White;
+            this.button73.Location = new System.Drawing.Point(668, 123);
+            this.button73.Name = "button73";
+            this.button73.Size = new System.Drawing.Size(75, 23);
+            this.button73.TabIndex = 83;
+            this.button73.Text = "Reserve";
+            this.button73.UseVisualStyleBackColor = false;
+            this.button73.Click += new System.EventHandler(this.ReserveTable);
+            // 
             // FloorChart
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1004,6 +1017,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1008, 729);
+            this.Controls.Add(this.button73);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.dirtyLbl);
             this.Controls.Add(this.satLbl);
@@ -1177,6 +1191,7 @@
         private System.Windows.Forms.Label satLbl;
         private System.Windows.Forms.Label dirtyLbl;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button73;
     }
 }
 

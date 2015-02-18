@@ -10,8 +10,12 @@ using System.Windows.Forms;
 
 namespace TableExample
 {
+    
     public partial class FloorChart : Form
     {
+        //Flag to change a table on click to Blue for reserved
+        bool reserveTableFlag = false;
+
         public FloorChart()
         {
             InitializeComponent();
@@ -29,43 +33,77 @@ namespace TableExample
 
             
         }
+        private void ReserveTable(object sender, EventArgs e)
+        {
+            reserveTableFlag = true;
+        }
 
+        /// <summary>
+        /// Method looks at the current color of the button
+        /// and changes it progressively Green - Yellow - Red
+        /// and calls the method to add a timestamp to the database
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void TableFunction(object sender, EventArgs e)
         {
+
             string colorReference;
             Button tableButton = (Button)sender;
-            if (tableButton.BackColor==Color.Green)
+            if (reserveTableFlag==false)
             {
-                colorReference = "Green";
-            }
-            else if (tableButton.BackColor==Color.Yellow)
-            {
-                colorReference = "Yellow";
+                if (tableButton.BackColor == Color.Green)
+                {
+                    colorReference = "Green";
+                }
+                else if (tableButton.BackColor == Color.Yellow)
+                {
+                    colorReference = "Yellow";
+                }
+                else if (tableButton.BackColor == Color.Blue)
+                {
+                    colorReference = "Blue";
+                }
+                else
+                {
+                    colorReference = "Red";
+                }
+
+                switch (colorReference)
+                {
+                    case "Green":
+                        tableButton.BackColor = Color.Yellow;
+                        
+                        break;
+                    case "Yellow":
+                        tableButton.BackColor = Color.Red;
+                        break;
+                    case "Red":
+                        tableButton.BackColor = Color.Green;
+                        break;
+                    case "Blue":
+                        tableButton.BackColor = Color.Yellow;
+                        tableButton.ForeColor = Color.Black;
+                        break;
+                    default:
+                        break;
+                }
+
+                TableTimeStamp(Convert.ToInt16(tableButton.Text), colorReference);
             }
             else
             {
-                colorReference = "Red";
+                tableButton.BackColor = Color.Blue;
+                tableButton.ForeColor = Color.White;
+                reserveTableFlag = false;
             }
+            
 
-            switch (colorReference)
-            {
-                case "Green":
-                    tableButton.BackColor = Color.Yellow;
-                    break;
-                case "Yellow":
-                    tableButton.BackColor = Color.Red;
-                    break;
-                case "Red":
-                    tableButton.BackColor = Color.Green;
-                    break;
-                default:
-                    break;
-            }
-            TableTimeStamp(tableButton.Name, colorReference);
+           
 
         }
 
-        public void TableTimeStamp(string tableNumber, string tableStatus)
+        public void TableTimeStamp(int tableNumber, string tableStatus)
         {
             if (tableStatus=="Green")
             {
@@ -76,6 +114,10 @@ namespace TableExample
                 
             }
             else if(tableStatus=="Red")
+            {
+
+            }
+            else if(tableStatus=="Blue")
             {
 
             }

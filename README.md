@@ -13,8 +13,11 @@ Dalek is a tool that improves restaurant hospitality organization, communication
 
 ##Getting Started
 **System Requirements [In Development]**
-* Visual Studio Community 2013
-* Microsoft Azure
+* MySQL
+* JavaScript
+* HTML
+* PHP
+* WAMP Server
 
 **How to Install [for Developers]**
 

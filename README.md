@@ -31,7 +31,8 @@ Dalek is a tool that improves restaurant hospitality organization, communication
 ##Release Notes
   - Version 0.1: Describes the concept of the project and presents some concept art.
   - Version 0.2: Present the technology stack that will be used throughout the project. 
-  - Version 0.3: **In Development**
+  - Version 0.3: Present a simple prototype and get feedback from persepective users. 
+  - Version 0.4: **In Development**
   
 ##List of Contributors
 * Paul VanHerpen

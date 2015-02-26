@@ -7,3 +7,6 @@ C:\Users\Klaas\Source\Repos\dalek\TableExample\TableExample\bin\Debug\TableExamp
 C:\Users\Klaas\Source\Repos\dalek\TableExample\TableExample\obj\Debug\TableExample.exe
 C:\Users\Klaas\Source\Repos\dalek\TableExample\TableExample\obj\Debug\TableExample.pdb
 C:\Users\Klaas\Source\Repos\dalek\TableExample\TableExample\obj\Debug\TableExample.FloorChart.resources
+C:\Users\Sophea\Documents\GitHub\dalek\TableExample\TableExample\bin\Debug\TableExample.exe.config
+C:\Users\Sophea\Documents\GitHub\dalek\TableExample\TableExample\obj\Debug\TableExample.exe
+C:\Users\Sophea\Documents\GitHub\dalek\TableExample\TableExample\obj\Debug\TableExample.pdb

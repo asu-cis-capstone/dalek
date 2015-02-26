@@ -32,7 +32,6 @@ body {
 	height:					30%;
 	width:					30%;
 	padding-left:			15px;
-}
 
 .sh1 {
 	font-size:				125%;
@@ -424,8 +423,11 @@ button {
 }
 #B61{
 	position:				absolute;
-	left:					1584px;
-	top:					1106px;
+	left:					1059px;
+	top:					798px;
+	width:					55px;
+	height:					55px;
+	transform:				rotate(45deg);
 }
 #B62{
 	position:				absolute;

@@ -1,0 +1,550 @@
+/*
+css3.css
+Project Dalek
+Paul VanHerpen
+Ashley Ortiz
+Sophea Soeun
+John Grijalva
+CIS-440
+Spring 2015
+*/
+
+body {
+	color:					#4169e1;
+	font-family:			Calibri, Helvetica, Arial, Sans-serif;
+	background-image:		url("../images/TableOutline.jpg");
+	background-repeat:		no-repeat;
+	background-size:		90%
+	width:					95%;
+	margin:					auto;
+}
+
+#header {
+	font-size:				110%;
+	clear:					both;
+	border-bottom:			thin solid #4169e1;
+	text-align:				center;
+	margin-bottom: 			5px;
+}
+
+.sh1 {
+	font-size:				125%;
+	font-weight:			bold;
+}
+
+.sh2 {
+	font-size:				110%;
+	font-weight:			bold;
+}
+
+button {
+	background-color:		Green;
+	font-size:				110%;
+	font-weight:			bold;
+	color:					white;
+	width:					50px;
+	height:					50px;
+}
+
+#B90{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+
+#B91{
+	position:				absolute;
+	left:					42px;
+	top:					769px;
+}
+
+#B92{
+	position:				absolute;
+	left:					42px;
+	top:					685px;
+}
+
+#B93{
+	position:				absolute;
+	left:					42px;
+	top:					604px;
+}
+
+#B94{
+	position:				absolute;
+	left:					42px;
+	top:					517px;
+}
+#B95{
+	position:				absolute;
+	left:					42px;
+	top:					375px;
+}
+
+#B96{
+	position:				absolute;
+	left:					198px;
+	top:					375px;
+}
+#B97{
+	position:				absolute;
+	left:					288px;
+	top:					375px;
+}
+#B98{
+	position:				absolute;
+	left:					372px;
+	top:					375px;
+}
+#B99{
+	position:				absolute;
+	left:					456px;
+	top:					375px;
+}
+#B101{
+	position:				absolute;
+	left:					200px;
+	top:					502px;
+}
+#B102{
+	position:				absolute;
+	left:					294px;
+	top:					502px;
+}
+#B103{
+	position:				absolute;
+	left:					390px;
+	top:					502px;
+}
+#B104{
+	position:				absolute;
+	left:					204px;
+	top:					673px;
+}
+#B105{
+	position:				absolute;
+	left:					318px;
+	top:					673px;
+}
+#B106{
+	position:				absolute;
+	left:					222px;
+	top:					840px;
+}
+/*#B201{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+#B202{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+
+#B203{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+
+#B204{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+
+#B205{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+#B206{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+
+#B207{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+#B208{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+#B209{
+	position:				absolute;
+	left:					42px;
+	top:					850px;
+}
+*/
+#B301{
+	position:				absolute;
+	left:					606px;
+	top:					69px;
+}
+#B302{
+	position:				absolute;
+	left:					782px;
+	top:					40px;
+}
+#B303{
+	position:				absolute;
+	left:					962px;
+	top:					27px;
+}
+#B304{
+	position:				absolute;
+	left:					782px;
+	top:					40px;
+}
+#B305{
+	position:				absolute;
+	left:					1306px;
+	top:					69px;
+}
+#B306{
+	position:				absolute;
+	left:					1156px;
+	top:					210px;
+}
+#B307{
+	position:				absolute;
+	left:					1008px;
+	top:					210px;
+}
+#B308{
+	position:				absolute;
+	left:					854px;
+	top:					210px;
+}
+
+#B11{
+	position:				absolute;
+	left:					456px;
+	top:					1087px;
+}
+#B12{
+	position:				absolute;
+	left:					644px;
+	top:					1077px;
+}
+#B13{
+	position:				absolute;
+	left:					916px;
+	top:					1077px;
+}
+#B14{
+	position:				absolute;
+	left:					1080px;
+	top:					1083px;
+}
+#B15{
+	position:				absolute;
+	left:					1388px;
+	top:					1267px;
+}
+
+#B21{
+	position:				absolute;
+	left:					702px;
+	top:					850px;
+}
+#B22{
+	position:				absolute;
+	left:					740px;
+	top:					752px;
+}
+#B23{
+	position:				absolute;
+	left:					780px;
+	top:					658px;
+}
+#B24{
+	position:				absolute;
+	left:					864px;
+	top:					583px;
+}
+#B25{
+	position:				absolute;
+	left:					948px;
+	top:					502px;
+}
+#B31{
+	position:				absolute;
+	left:					916px;
+	top:					829px;
+}
+#B32{
+	position:				absolute;
+	left:					1072px;
+	top:					902px;
+}
+#B33{
+	position:				absolute;
+	left:					1072px;
+	top:					829px;
+}
+#B34{
+	position:				absolute;
+	left:					1072px;
+	top:					758px;
+}
+#B35{
+	position:				absolute;
+	left:					1072px;
+	top:					685px;
+}
+#B36{
+	position:				absolute;
+	left:					1072px;
+	top:					608px;
+}
+#B41{
+	position:				absolute;
+	left:					1270px;
+	top:					912px;
+}
+#B42{
+	position:				absolute;
+	left:					1270px;
+	top:					829px;
+}
+#B43{
+	position:				absolute;
+	left:					1270px;
+	top:					735px;
+}
+#B44{
+	position:				absolute;
+	left:					1270px;
+	top:					658px;
+}
+#B45{
+	position:				absolute;
+	left:					1270px;
+	top:					538px;
+}
+#B51{
+	position:				absolute;
+	left:					1424px;
+	top:					1077px;
+}
+#B52{
+	position:				absolute;
+	left:					1424px;
+	top:					985px;
+}
+#B53{
+	position:				absolute;
+	left:					1424px;
+	top:					912px;
+}
+#B54{
+	position:				absolute;
+	left:					1424px;
+	top:					829px;
+}
+#B55{
+	position:				absolute;
+	left:					1424px;
+	top:					735px;
+}
+#B56{
+	position:				absolute;
+	left:					1424px;
+	top:					658px;
+}
+#B57{
+	position:				absolute;
+	left:					1424px;
+	top:					538px;
+}
+#B61{
+	position:				absolute;
+	left:					1584px;
+	top:					1106px;
+}
+#B62{
+	position:				absolute;
+	left:					1698px;
+	top:					1013px;
+}
+#B63{
+	position:				absolute;
+	left:					1572px;
+	top:					935px;
+}
+#B64{
+	position:				absolute;
+	left:					1698px;
+	top:					856px;
+}
+#B65{
+	position:				absolute;
+	left:					1572px;
+	top:					777px;
+}
+#B66{
+	position:				absolute;
+	left:					1700px;
+	top:					700px;
+}
+#B67{
+	position:				absolute;
+	left:					1572px;
+	top:					625px;
+}
+#B68{
+	position:				absolute;
+	left:					1700px;
+	top:					544px;
+}
+#B71{
+	position:				absolute;
+	left:					1904px;
+	top:					1237px;
+}
+#B72{
+	position:				absolute;
+	left:					1894px;
+	top:					1115px;
+}
+#B73{
+	position:				absolute;
+	left:					1894px;
+	top:					985px;
+}
+#B74{
+	position:				absolute;
+	left:					1894px;
+	top:					850px;
+}
+#B75{
+	position:				absolute;
+	left:					1894px;
+	top:					700px;
+}
+#B76{
+	position:				absolute;
+	left:					1898px;
+	top:					565px;
+}
+#B77{
+	position:				absolute;
+	left:					1826px;
+	top:					375px;
+}
+#B81{
+	position:				absolute;
+	left:					1080px;
+	top:					333px;
+}
+#B82{
+	position:				absolute;
+	left:					1230px;
+	top:					333px;
+}
+#B83{
+	position:				absolute;
+	left:					1384px;
+	top:					333px;
+}
+#B84{
+	position:				absolute;
+	left:					1584px;
+	top:					333px;
+}
+#B85{
+	position:				absolute;
+	left:					1678px;
+	top:					333px;
+}
+
+#Reserve {
+	background-color:		blue;
+	height:					60px;
+	width:					100px;
+	position:				absolute;
+	left:					1336px;
+	top:					237px;
+
+select:required { background: #ff0; }
+
+select:valid { background: #fff; }
+
+select:focus:invalid { background: #f00; }
+
+#footer {
+	font-size:				60%;
+	font-style:				italic;
+	text-align:				center;
+	border-top:				thin solid #4169e1;
+	clear:					both;
+	margin-top:				550px;
+}
+
+#footer img {
+	width:					76px;
+	height:					60px;
+}
+
+.submit { text-align: center; }
+
+.submit input {
+	color:					#ffffff;
+	font-size:				95%;
+	font-style:				italic;
+	font-weight:			bold;
+	background-color:		#11dd11;
+	border-radius:			10px;
+	box-shadow:				2px 2px 0px 0px rgba(17,238,17,.6);
+}
+
+.reset input { 
+	background-color: 		#dd1111;
+	border-radius:			10px;
+	box-shadow:				2px 2px 0px 0px rgba(238,17,17,.4);
+	}
+
+.fh1 { 
+	text-decoration:		underline;
+	font-weight:			bold;
+}
+
+label {
+	width:					11em;
+	float:					left;
+	text-align:				left;
+}
+
+a:link 		{ color:	#4169e1; 	}
+a:hover		{ color:	#32cd32;	}
+a:visited	{ color:	#bbbbbb;	}
+
+
+.bold {font-weight:	bold;}
+
+
+#footer a:link  { text-decoration: none; }
+
+#icons {
+	width:					80%;
+	margin-top:				40px;
+	text-align:				center;
+	font-style:				italic;
+	font-weight:			bold;
+	margin-top:				45px;
+	
+}
+
+#icons img {
+	width:					222px;
+	height:					222px;
+	border:					none;
+}
+
+#11 {background-color: Blue; }

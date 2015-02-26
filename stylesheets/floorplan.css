@@ -14,8 +14,9 @@ body {
 	font-family:			Calibri, Helvetica, Arial, Sans-serif;
 	background-image:		url("../images/TableOutline.jpg");
 	background-repeat:		no-repeat;
-	background-size:		90%
-	width:					95%;
+	position:				absolute;
+	height:					50%;
+	width:					80%;
 	margin:					auto;
 }
 
@@ -44,92 +45,99 @@ button {
 	color:					white;
 	width:					50px;
 	height:					50px;
+	text-align:				center;
+	box-shadow:				0 0 2px #000;
+	text-shadow:			0 0 1px #fff;
+	border-radius:			4px;
 }
 
 #B90{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					34px;
+	top:					612px;
 }
 
 #B91{
 	position:				absolute;
-	left:					42px;
-	top:					769px;
+	left:					34px;
+	top:					554px;
 }
 
 #B92{
 	position:				absolute;
-	left:					42px;
-	top:					685px;
+	left:					34px;
+	top:					496px;
 }
 
 #B93{
 	position:				absolute;
-	left:					42px;
-	top:					604px;
+	left:					34px;
+	top:					438px;
 }
 
 #B94{
 	position:				absolute;
-	left:					42px;
-	top:					517px;
+	left:					34px;
+	top:					380px;
 }
 #B95{
 	position:				absolute;
-	left:					42px;
-	top:					375px;
+	width:					80px;
+	height:					80px;
+	left:					30px;
+	top:					265px;
 }
 
 #B96{
 	position:				absolute;
-	left:					198px;
-	top:					375px;
+	left:					129px;
+	top:					265px;
 }
 #B97{
 	position:				absolute;
-	left:					288px;
-	top:					375px;
+	left:					190px;
+	top:					265px;
 }
 #B98{
 	position:				absolute;
-	left:					372px;
-	top:					375px;
+	left:					250px;
+	top:					265px;
 }
 #B99{
 	position:				absolute;
-	left:					456px;
-	top:					375px;
+	left:					310px;
+	top:					265px;
 }
 #B101{
 	position:				absolute;
-	left:					200px;
-	top:					502px;
+	width:					69px;
+	left:					152px;
+	top:					610px;
 }
 #B102{
 	position:				absolute;
-	left:					294px;
-	top:					502px;
+	left:					135px;
+	top:					490px;
 }
 #B103{
 	position:				absolute;
-	left:					390px;
-	top:					502px;
+	left:					205px;
+	top:					490px;
 }
 #B104{
 	position:				absolute;
-	left:					204px;
-	top:					673px;
+	left:					129px;
+	top:					370px;
 }
 #B105{
 	position:				absolute;
-	left:					318px;
-	top:					673px;
+	left:					190px;
+	top:					370px;
 }
 #B106{
 	position:				absolute;
-	left:					222px;
-	top:					840px;
+	left:					253px;
+	top:					370px;
 }
 /*#B201{
 	position:				absolute;
@@ -183,125 +191,166 @@ button {
 */
 #B301{
 	position:				absolute;
-	left:					606px;
-	top:					69px;
+	left:					408px;
+	top:					56px;
+	width:					58px;
+	height:					58px;
+	transform:				rotate(45deg);
 }
+
 #B302{
 	position:				absolute;
-	left:					782px;
-	top:					40px;
+	left:					525px;
+	top:					33px;
+	width:					58px;
+	height:					58px;
+	transform:				rotate(45deg);
 }
 #B303{
 	position:				absolute;
-	left:					962px;
-	top:					27px;
+	left:					643px;
+	top:					25px;
+	width:					58px;
+	height:					58px;
+	transform:				rotate(45deg);
 }
 #B304{
 	position:				absolute;
-	left:					782px;
-	top:					40px;
+	left:					758px;
+	top:					35px;
+	width:					58px;
+	height:					58px;
+	transform:				rotate(45deg);
 }
 #B305{
 	position:				absolute;
-	left:					1306px;
-	top:					69px;
+	left:					871px;
+	top:					56px;
+	width:					58px;
+	height:					58px;
+	transform:				rotate(45deg);
 }
 #B306{
 	position:				absolute;
-	left:					1156px;
-	top:					210px;
+	left:					772px;
+	top:					153px;
+	width:					58px;
+	height:					58px;
+	transform:				rotate(45deg);
 }
 #B307{
 	position:				absolute;
-	left:					1008px;
-	top:					210px;
+	left:					674px;
+	top:					154px;
+	width:					58px;
+	height:					58px;
+	transform:				rotate(45deg);
 }
 #B308{
 	position:				absolute;
-	left:					854px;
-	top:					210px;
+	left:					571px;
+	top:					154px;
+	width:					58px;
+	height:					58px;
+	transform:				rotate(45deg);
 }
 
 #B11{
 	position:				absolute;
-	left:					456px;
-	top:					1087px;
+	left:					316px;
+	top:					803px;
+	height:					69px;
 }
 #B12{
 	position:				absolute;
-	left:					644px;
-	top:					1077px;
+	left:					428px;
+	top:					780px;
 }
 #B13{
 	position:				absolute;
-	left:					916px;
-	top:					1077px;
+	left:					615px;
+	top:					780px;
 }
 #B14{
 	position:				absolute;
-	left:					1080px;
-	top:					1083px;
+	left:					727px;
+	top:					801px;
+	height:					71px;
 }
 #B15{
 	position:				absolute;
-	left:					1388px;
-	top:					1267px;
+	left:					927px;
+	top:					920px;
+	height:					69px;
 }
 
 #B21{
 	position:				absolute;
-	left:					702px;
-	top:					850px;
+	left:					473px;
+	top:					614px;
+	width:					48px;
+	height:					48px;
+	transform:				rotate(-80deg);
 }
 #B22{
 	position:				absolute;
-	left:					740px;
-	top:					752px;
+	left:					482px;
+	top:					546px;
+	width:					71px;
+	transform:				rotate(-67deg);
 }
 #B23{
 	position:				absolute;
-	left:					780px;
-	top:					658px;
+	left:					527px;
+	top:					485px;
+	width:					48px;
+	height:					48px;
+	transform:				rotate(-58deg);
 }
 #B24{
 	position:				absolute;
-	left:					864px;
-	top:					583px;
+	left:					558px;
+	top:					426px;
+	width:					72px;
+	transform:				rotate(-47deg);
 }
 #B25{
 	position:				absolute;
-	left:					948px;
-	top:					502px;
+	left:					622px;
+	top:					382px;
+	width:					48px;
+	height:					48px;
+	transform:				rotate(-37deg);
 }
 #B31{
 	position:				absolute;
-	left:					916px;
-	top:					829px;
+	left:					603px;
+	top:					600px;
 }
 #B32{
 	position:				absolute;
-	left:					1072px;
-	top:					902px;
+	left:					710px;
+	top:					642px;
 }
 #B33{
 	position:				absolute;
-	left:					1072px;
-	top:					829px;
+	left:					710px;
+	top:					590px;
 }
 #B34{
 	position:				absolute;
-	left:					1072px;
-	top:					758px;
+	left:					710px;
+	top:					539px;
 }
 #B35{
 	position:				absolute;
-	left:					1072px;
-	top:					685px;
+	left:					710px;
+	top:					488px;
 }
 #B36{
 	position:				absolute;
-	left:					1072px;
-	top:					608px;
+	left:					710px;
+	top:					438px;
 }
 #B41{
 	position:				absolute;
@@ -440,28 +489,33 @@ button {
 }
 #B81{
 	position:				absolute;
-	left:					1080px;
-	top:					333px;
+	left:					719px;
+	top:					240px;
+	height:					71px;
 }
 #B82{
 	position:				absolute;
-	left:					1230px;
-	top:					333px;
+	left:					820px;
+	top:					240px;
+	height:					71px;
 }
 #B83{
 	position:				absolute;
-	left:					1384px;
-	top:					333px;
+	left:					920px;
+	top:					240px;
+	height:					71px;
 }
 #B84{
 	position:				absolute;
-	left:					1584px;
-	top:					333px;
+	left:					1021px;
+	top:					240px;
+	height:					71px;
 }
 #B85{
 	position:				absolute;
-	left:					1678px;
-	top:					333px;
+	left:					1122px;
+	top:					240px;
+	height:					71px;
 }
 
 #Reserve {

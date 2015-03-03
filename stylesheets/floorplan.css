@@ -430,6 +430,8 @@ button {
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	border-radius:			70px;
+	
 }
 #B62{
 	position:				absolute;
@@ -438,6 +440,7 @@ button {
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	border-radius:			70px;
 }
 #B63{
 	position:				absolute;
@@ -446,6 +449,7 @@ button {
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	border-radius:			70px;
 	
 }
 #B64{
@@ -455,6 +459,7 @@ button {
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	border-radius:			70px;
 }
 #B65{
 	position:				absolute;
@@ -463,6 +468,7 @@ button {
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	border-radius:			70px;
 }
 #B66{
 	position:				absolute;
@@ -471,6 +477,7 @@ button {
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	border-radius:			70px;
 }
 #B67{
 	position:				absolute;
@@ -479,6 +486,7 @@ button {
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	border-radius:			70px;
 }
 #B68{
 	position:				absolute;
@@ -487,6 +495,7 @@ button {
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	border-radius:			70px;
 }
 #B71{
 	position:				absolute;
@@ -528,11 +537,12 @@ button {
 }
 #B77{
 	position:				absolute;
-	left:					1225px;
-	top:					279px;
+	left:					1223px;
+	top:					275px;
 	height:					70px;
 	width:					75px;
 	-webkit-transform:		rotate(-315deg);
+	border-radius:			70px;
 	
 }
 #B81{

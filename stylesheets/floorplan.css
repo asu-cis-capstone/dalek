@@ -146,56 +146,92 @@ button {
 	left:					253px;
 	top:					370px;
 }
-/*#B201{
+#B201{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					420px;
+	top:					316px;
+	border-radius:			70px;
+	width:					35px;
+	height:					35px;
+	font-size:				80%
 }
 #B202{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					390px;
+	top:					360px;
+	border-radius:			70px;
+	width:					35px;
+	height:					35px;
+	font-size:				80%
 }
 
 #B203{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					365px;
+	top:					400px;
+	border-radius:			70px;
+	width:					35px;
+	height:					35px;
+	font-size:				80%
 }
 
 #B204{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					340px;
+	top:					445px;
+	border-radius:			70px;
+	width:					35px;
+	height:					35px;
+	font-size:				80%
 }
 
 #B205{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					320px;
+	top:					490px;
+	border-radius:			70px;
+	width:					35px;
+	height:					35px;
+	font-size:				90%
 }
 #B206{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					300px;
+	top:					535px;
+	border-radius:			70px;
+	width:					35px;
+	height:					35px;
+	font-size:				80%
 }
 
 #B207{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					290px;
+	top:					580px;
+	border-radius:			70px;
+	width:					35px;
+	height:					35px;
+	font-size:				80%
 }
 #B208{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					285px;
+	top:					620px;
+	border-radius:			70px;
+	width:					35px;
+	height:					35px;
+	font-size:				80%
 }
 #B209{
 	position:				absolute;
-	left:					42px;
-	top:					850px;
+	left:					275px;
+	top:					660px;
+	border-radius:			70px;
+	width:					35px;
+	height:					35px;
+	font-size:				80%
 }
-*/
+
 #B301{
 	position:				absolute;
 	left:					408px;

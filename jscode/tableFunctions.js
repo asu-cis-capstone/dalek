@@ -17,15 +17,15 @@ function colorChange(tableNumber) {
 	//	warning = warning + "\n" + currentColor;
 	//	alert(warning);
 	
-	if (currentColor == "Green" || currentColor =="")
+	if (currentColor == "Green" || currentColor =="green" ||currentColor =="")
 	{
 		document.getElementById("B" + tableNumber).style.backgroundColor = "Yellow";
 	}
-	else if (currentColor == "Yellow")
+	else if (currentColor == "Yellow" || currentColor =="yellow")
 	{
 		document.getElementById("B" + tableNumber).style.backgroundColor = "Red";
 	}
-	else if (currentColor == "Red")
+	else if (currentColor == "Red" || currentColor =="red")
 	{
 		document.getElementById("B" + tableNumber).style.backgroundColor = "Green";
 	}

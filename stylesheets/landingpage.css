@@ -1,0 +1,79 @@
+/*
+landingpage.css
+Project Dalek
+Paul VanHerpen
+Ashley Ortiz
+Sophea Soeun
+John Grijalva
+CIS-440
+Spring 2015
+*/
+
+
+
+body {
+	width: 				78%;
+	color:				red;
+	margin:				auto;
+	font-weight:		bold;
+	font-family:		Calibri, Helvetica, Verdana, Arial, sans-serif;
+	background-color:	whitesmoke;
+}
+
+#header {
+	height:				110px;
+	font-size:			120%;
+	text-align:			center;
+	margin-bottom:		6%;
+	border-bottom:		1px solid red;
+}
+
+#header img{
+	max-height:			30%;
+	max-width:			30%;
+}
+
+.m1{
+	display:			inline-block;
+	padding:			4% 10% 0% 10%;
+}
+
+.left	{ float:	left; }
+
+table{
+	width: 				100%;
+	text-align:			center;
+	table-layout:		fixed;
+	margin-bottom:		4%;
+	vertical-align:		middle;
+	border-collapse:	collapse;
+	background-color:	whitesmoke;
+}
+
+table a:hover 	{ color: white; }
+table a:link	{ text-decoration: none; }
+td:hover		{ background-color: red; }
+table, th, td	{ border: 1px solid red; }
+ 
+#main{
+	margin-top: 		8%;
+	font-size:			150%;
+	text-align:			center;
+}
+
+#footer{
+	margin:				auto;
+	font-size:			60%;
+	text-align:			center;
+	border-top:			1px solid red;
+	padding-top:		1%;
+}
+
+#footer img{
+	height:				50px;
+	width:				50px;
+}
+
+a:link		{color: black; }
+a:visited	{color: gray; }
+

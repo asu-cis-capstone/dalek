@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Table4.Models.Table>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <div>
+
+        @foreach (var item in Model)
+        {
+            <input type="submit" value="@Html.DisplayFor(m => item.number)" class="open" id="@Html.ValueFor(m => item.tablename)" />
+        }
+
+    </div>
+}

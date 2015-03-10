@@ -619,54 +619,55 @@ button {
 	position:				absolute;
 	left:					1336px;
 	top:					237px;
+}
 
 select:required { background: #ff0; }
-
 select:valid { background: #fff; }
-
 select:focus:invalid { background: #f00; }
 
-#footer {
-	font-size:				60%;
-	font-style:				italic;
+input {
+	padding-left:			5px;
+	width:					140px;
+	height:					32px;
+	border-radius:			5px;
+	font-family:			Calibri, Helvetica, Arial, Sans-serif;
+	font-size:				20px;
+	border:					1px solid Blue;
+	color:					Blue;
 	text-align:				center;
-	border-top:				thin solid #4169e1;
-	clear:					both;
-	margin-top:				550px;
+	background-color:		#f5f5f5;
+	box-shadow:				1px 1px 1px 1px rgba(25, 25, 75, 0.5);
 }
 
-#footer img {
-	width:					76px;
-	height:					60px;
+
+#s1 {
+	position:				absolute;
+	left:					1040px;
+	top:					340px;
 }
 
-.submit { text-align: center; }
-
-.submit input {
-	color:					#ffffff;
-	font-size:				95%;
-	font-style:				italic;
-	font-weight:			bold;
-	background-color:		#11dd11;
-	border-radius:			10px;
-	box-shadow:				2px 2px 0px 0px rgba(17,238,17,.6);
+#s2 {
+	position:				absolute;
+	left:					1080px;
+	top:					920px;
 }
 
-.reset input { 
-	background-color: 		#dd1111;
-	border-radius:			10px;
-	box-shadow:				2px 2px 0px 0px rgba(238,17,17,.4);
-	}
+#s3 {
+	position:				absolute;
+	left:					680px;
+	top:					330px;
+}
+
+#s4 {
+	position:				absolute;
+	left:					680px;
+	top:					725px;
+}
+
 
 .fh1 { 
 	text-decoration:		underline;
 	font-weight:			bold;
-}
-
-label {
-	width:					11em;
-	float:					left;
-	text-align:				left;
 }
 
 a:link 		{ color:	#4169e1; 	}
@@ -675,24 +676,3 @@ a:visited	{ color:	#bbbbbb;	}
 
 
 .bold {font-weight:	bold;}
-
-
-#footer a:link  { text-decoration: none; }
-
-#icons {
-	width:					80%;
-	margin-top:				40px;
-	text-align:				center;
-	font-style:				italic;
-	font-weight:			bold;
-	margin-top:				45px;
-	
-}
-
-#icons img {
-	width:					222px;
-	height:					222px;
-	border:					none;
-}
-
-#11 {background-color: Blue; }

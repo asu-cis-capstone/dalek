@@ -21,10 +21,10 @@ Dalek is a tool that improves restaurant hospitality organization, communication
 
 **How to Install [for Developers]**
 
-1. Go to the **home** branch of the Dalek repo: `https://github.com/asu-cis-capstone/dalek/tree/home`.
+1. Go to the **test** branch of the Dalek repo: `https://github.com/asu-cis-capstone/dalek/tree/test`.
 2. Download and save the ZIP file by clicking on **Download ZIP** [Located near the bottom right-hand corner].
 3. Extract all file in the ZIP.
-4. Open the **tabler.sln** solution in Visual Studio.
+4. Open the **Table4.sln** solution in Visual Studio.
 
 **Usage Examples [In Development]**
   

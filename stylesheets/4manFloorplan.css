@@ -1,5 +1,5 @@
 /*
-css3.css
+4manFloorplan.css
 Project Dalek
 Paul VanHerpen
 Ashley Ortiz
@@ -20,12 +20,16 @@ body {
 	margin:					auto;
 }
 
-#header {
-	font-size:				110%;
-	clear:					both;
-	border-bottom:			thin solid #4169e1;
-	text-align:				center;
-	margin-bottom: 			5px;
+table{
+	position:				absolute;
+	top:					700px;
+}
+
+td {
+	height:					20px;
+	width:					20px;
+	text-align:				right;
+	padding-right:			1px;
 }
 
 #logo img{
@@ -33,16 +37,6 @@ body {
 	max-height:				300px;
 	max-width:				300px;
 	padding-left:			15px;
-}
-	
-.sh1 {
-	font-size:				125%;
-	font-weight:			bold;
-}
-
-.sh2 {
-	font-size:				110%;
-	font-weight:			bold;
 }
 
 button {
@@ -53,7 +47,7 @@ button {
 	width:					50px;
 	height:					50px;
 	text-align:				center;
-	box-shadow:				0 0 2px #000;
+	box-shadow:				0 0 1px #000;
 	text-shadow:			0 0 1px #fff;
 	border-radius:			3px;
 }
@@ -621,58 +615,15 @@ button {
 	top:					237px;
 }
 
-select:required { background: #ff0; }
-select:valid { background: #fff; }
-select:focus:invalid { background: #f00; }
-
 input {
-	padding-left:			5px;
-	width:					140px;
-	height:					32px;
+	width:					95px;
+	height:					25px;
 	border-radius:			5px;
 	font-family:			Calibri, Helvetica, Arial, Sans-serif;
-	font-size:				20px;
-	border:					1px solid Blue;
-	color:					Blue;
-	text-align:				center;
+	font-size:				14px;
+	border:					1px solid #3454b4;
+	color:					#3454b4;
 	background-color:		#f5f5f5;
 	box-shadow:				1px 1px 1px 1px rgba(25, 25, 75, 0.5);
+	padding-left:			5px;
 }
-
-
-#s1 {
-	position:				absolute;
-	left:					1040px;
-	top:					340px;
-}
-
-#s2 {
-	position:				absolute;
-	left:					1080px;
-	top:					920px;
-}
-
-#s3 {
-	position:				absolute;
-	left:					680px;
-	top:					330px;
-}
-
-#s4 {
-	position:				absolute;
-	left:					680px;
-	top:					725px;
-}
-
-
-.fh1 { 
-	text-decoration:		underline;
-	font-weight:			bold;
-}
-
-a:link 		{ color:	#4169e1; 	}
-a:hover		{ color:	#32cd32;	}
-a:visited	{ color:	#bbbbbb;	}
-
-
-.bold {font-weight:	bold;}

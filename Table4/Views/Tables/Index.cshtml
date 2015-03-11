@@ -4,18 +4,36 @@
     ViewBag.Title = "Index";
 }
 
-@using (Html.BeginForm())
+@using (Html.BeginForm("ChangeStatus", "Tables", FormMethod.Post, new { id = "submitForm" }))
 {
     @Html.AntiForgeryToken()
 
-    <p>
-        @Html.ActionLink("Create New", "Create")
-    </p>
     <div>
 
         @foreach (var item in Model)
         {
-            <input type="submit" value="@Html.DisplayFor(m => item.number)" class="open" id="@Html.ValueFor(m => item.tablename)" />
+            if (item.status == 0)
+            { 
+                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="open" id="@Html.ValueFor(m => item.tablename)" />
+            }
+
+            if (item.status == 1)
+            {
+                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="sat" id="@Html.ValueFor(m => item.tablename)" />
+            }
+
+            if (item.status == 2)
+            {
+                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="dirty" id="@Html.ValueFor(m => item.tablename)" />
+            }
+
+            if (item.status == 3)
+            {
+                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="reserved" id="@Html.ValueFor(m => item.tablename)" />
+            }
+
+
+
         }
 
     </div>

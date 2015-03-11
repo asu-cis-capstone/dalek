@@ -14,6 +14,31 @@ namespace Table4.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
+        [HttpPost]
+        public ActionResult ChangeStatus(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1) || (table.status == 2))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            else if (table.status == 3)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return RedirectToAction("Index");
+            }
+
+        }
+
         // GET: Tables
         public ActionResult Index()
         {

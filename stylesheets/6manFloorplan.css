@@ -22,6 +22,7 @@ body {
 
 table{
 	position:				absolute;
+<<<<<<< HEAD
 	top:					700px;
 }
 
@@ -30,6 +31,19 @@ td {
 	width:					20px;
 	text-align:				right;
 	padding-right:			1px;
+=======
+	top:					690px;
+	left:					10px;
+	border: 				1px solid black;
+}
+
+#header {
+	font-size:				110%;
+	clear:					both;
+	border-bottom:			thin solid #4169e1;
+	text-align:				center;
+	margin-bottom: 			5px;
+>>>>>>> 3a3dc0099859340a747451a2f7ac9d9ee132cd91
 }
 
 #logo img{

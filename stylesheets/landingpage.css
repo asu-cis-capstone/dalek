@@ -12,7 +12,7 @@ Spring 2015
 
 
 body {
-	width: 				78%;
+	width: 				75%;
 	color:				red;
 	margin:				auto;
 	font-weight:		bold;
@@ -20,17 +20,58 @@ body {
 	background-color:	whitesmoke;
 }
 
-#header {
-	height:				110px;
-	font-size:			120%;
-	text-align:			center;
-	margin-bottom:		6%;
-	border-bottom:		1px solid red;
+#navpanel ul {
+	color:				#fff;
+	list-style:			none;
+	background-color:	#006699;
+	text-align:			left;
+	padding:			0;
+	margin:				0;
+	border:				1px solid #fff;
+	border-radius:		5px;
+	box-shadow:			1px 1px 1px 1px rgba(25, 25, 75, .5);
 }
 
-#header img{
-	max-height:			30%;
-	max-width:			30%;
+#navpanel li {
+	display:			inline-block;
+	margin-right:		-4px;
+	line-height:		40px;
+	height:				40px;
+	font-size:			1.7em;
+	padding-left:		15px;
+	padding-right:		15px;
+	padding-bottom:		3px;
+}
+
+#navpanel a {
+	color:				#fff;
+	text-decoration:	none;
+	display:			block;
+	font:				bold 14px/51px Arial, Helvetica, sans-serif;
+	transition:			.3s background-color;
+}
+#navpanel a:hover {
+	color:				red;
+}
+
+#navpanel a.active {
+	background-color:	#fff;
+	color:				#444;
+	cursor:				default;
+}
+
+.welcome {
+	font-size:			90%;
+	text-align:			right;
+}
+
+#header {
+	height:				125px;
+	font-size:			120%;
+	text-align:			center;
+	margin-bottom:		5%;
+	padding-top:		10px;
+	border-bottom:		1px solid red;
 }
 
 .m1{

@@ -1,0 +1,80 @@
+/*
+login.css
+Project Dalek
+Paul VanHerpen
+Ashley Ortiz
+Sophea Soeun
+Jonathan Grijalva
+CIS-440
+Spring 2015
+*/
+
+body {
+	width:				95%;
+	color:				#000;
+	margin:				auto;
+	font-family:		Calibri, Helvetica, Verdana, Arial, sans-serif;
+	background-color:	whitesmoke;
+}
+
+#loginHeader {
+	clear:				both;
+	font-size:			200%;
+	font-weight:		bold;
+	text-align:			center;
+	margin-top:			175px;
+}
+
+#logo {
+	clear:				both;
+}
+
+#description {
+	font-weight:		bold;
+	font-family:		Raleway, Helvetica, sans-serif;
+	width:				25%;
+	margin:				auto;
+	text-align:			center;
+}
+
+#loginForm {
+	width:				18%;
+	margin:				auto;
+	border:				3px solid #f5f5f5;
+	border-radius:		3px;
+	padding-top:		30px;
+	padding-left:		10px;
+	padding-right:		10px;
+	padding-bottom:		20px;
+	background-color:	#f5f5f5;
+	box-shadow:			1px 1px 1px 1px rgba(25, 25, 75, .5);
+}
+
+#loginForm input[type=text], #loginForm input[type=password] {
+	float:				center;
+	width:				250px;
+	height:				30px;
+	border-radius:		3px;
+	padding-left:		5px;
+	font-size:			125%;
+}
+
+label {
+	font-size:			120%;
+}
+
+.login { text-align:		center;}
+
+.login input {
+	color:				#fff;
+	font-size:			125%;
+	background-color:	Green;
+	border-radius:		4px;
+	padding-top:		5px;
+	padding-bottom:		5px;
+	padding-left:		100px;
+	padding-right:		100px;
+}
+
+
+

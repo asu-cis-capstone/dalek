@@ -4,11 +4,19 @@
     ViewBag.Title = "Index";
 }
 
+<head>
+    <title>Floor Charts</title>
+    <link href="@Url.Content("~/Content/4manFloorplan.css")"
+          rel="stylesheet" type="text/css" />
+
+</head>
+
 @using (Html.BeginForm("ChangeStatus", "Tables", FormMethod.Post, new { id = "submitForm" }))
 {
     @Html.AntiForgeryToken()
 
     <div class="buttonbody">
+
 
         @foreach (var item in Model)
         {

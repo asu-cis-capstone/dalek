@@ -40,9 +40,41 @@ namespace Table4.Controllers
         }
 
         // GET: Tables
-        public ActionResult Index()
+        public ActionResult Index4()
         {
-            return View(db.Tables.ToList());
+            return View("4man", db.Tables.ToList());
+        }
+        public ActionResult Index5()
+        {
+            return View("5man", db.Tables.ToList());
+        }
+        public ActionResult Index6()
+        {
+            return View("6man", db.Tables.ToList());
+        }
+        public ActionResult Index7()
+        {
+            return View("7man", db.Tables.ToList());
+        }
+        public ActionResult Index8()
+        {
+            return View("8man", db.Tables.ToList());
+        }
+        public ActionResult Index9()
+        {
+            return View("9man", db.Tables.ToList());
+        }
+        public ActionResult Index10()
+        {
+            return View("10man", db.Tables.ToList());
+        }
+        public ActionResult Index11()
+        {
+            return View("11man", db.Tables.ToList());
+        }
+        public ActionResult Index12()
+        {
+            return View("12man", db.Tables.ToList());
         }
 
         // GET: Tables/Details/5

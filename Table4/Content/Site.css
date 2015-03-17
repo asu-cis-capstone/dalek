@@ -367,28 +367,33 @@ Spring 2015
 	left:					316px;
 	top:					803px;
 	height:					69px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B12{
 	position:				absolute;
 	left:					428px;
 	top:					780px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B13{
 	position:				absolute;
 	left:					615px;
 	top:					780px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B14{
 	position:				absolute;
 	left:					727px;
 	top:					801px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B15{
 	position:				absolute;
 	left:					927px;
 	top:					920px;
 	height:					69px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 
 #B21{
@@ -398,6 +403,7 @@ Spring 2015
 	width:					48px;
 	height:					48px;
 	-webkit-transform:		rotate(-80deg);
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B22{
 	position:				absolute;
@@ -405,6 +411,7 @@ Spring 2015
 	top:					546px;
 	width:					71px;
 	-webkit-transform:		rotate(-67deg);
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B23{
 	position:				absolute;
@@ -413,6 +420,7 @@ Spring 2015
 	width:					48px;
 	height:					48px;
 	-webkit-transform:		rotate(-58deg);
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B24{
 	position:				absolute;
@@ -420,6 +428,7 @@ Spring 2015
 	top:					426px;
 	width:					72px;
 	-webkit-transform:		rotate(-47deg);
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B25{
 	position:				absolute;
@@ -428,100 +437,119 @@ Spring 2015
 	width:					48px;
 	height:					48px;
 	-webkit-transform:		rotate(-37deg);
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B31{
 	position:				absolute;
 	left:					603px;
 	top:					600px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B32{
 	position:				absolute;
 	left:					710px;
 	top:					642px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B33{
 	position:				absolute;
 	left:					710px;
 	top:					590px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B34{
 	position:				absolute;
 	left:					710px;
 	top:					539px;
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B35{
 	position:				absolute;
 	left:					710px;
 	top:					488px;
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B36{
 	position:				absolute;
 	left:					710px;
 	top:					438px;
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B41{
 	position:				absolute;
 	left:					842px;
 	top:					650px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B42{
 	position:				absolute;
 	left:					842px;
 	top:					585px;
+	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B43{
 	position:				absolute;
 	left:					842px;
 	top:					525px;
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B44{
 	position:				absolute;
 	left:					842px;
 	top:					466px;
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B45{
 	position:				absolute;
 	left:					842px;
 	top:					386px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B51{
 	position:				absolute;
 	left:					944px;
 	top:					765px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B52{
 	position:				absolute;
 	left:					944px;
 	top:					706px;
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B53{
 	position:				absolute;
 	left:					944px;
 	top:					647px;
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B54{
 	position:				absolute;
 	left:					944px;
 	top:					587px;
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B55{
 	position:				absolute;
 	left:					944px;
 	top:					529px;
+	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B56{
 	position:				absolute;
 	left:					944px;
 	top:					466px;
+	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B57{
 	position:				absolute;
 	left:					944px;
 	top:					386px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B61{
 	position:				absolute;
@@ -530,7 +558,7 @@ Spring 2015
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
-	
+	box-shadow: 			0px 0px 5px 3px Lime;
 	
 }
 #B62{
@@ -541,6 +569,7 @@ Spring 2015
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
 	border-radius:			70px;
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B63{
 	position:				absolute;
@@ -549,6 +578,7 @@ Spring 2015
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	box-shadow: 			0px 0px 5px 3px Lime;
 
 	
 }
@@ -560,6 +590,7 @@ Spring 2015
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
 	border-radius:			70px;
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B65{
 	position:				absolute;
@@ -568,6 +599,7 @@ Spring 2015
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	box-shadow: 			0px 0px 5px 3px Red;
 	
 }
 #B66{
@@ -578,6 +610,7 @@ Spring 2015
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
 	border-radius:			70px;
+	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B67{
 	position:				absolute;
@@ -586,6 +619,7 @@ Spring 2015
 	width:					57px;
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
+	box-shadow: 			0px 0px 5px 3px Red;
 	
 }
 #B68{
@@ -596,6 +630,7 @@ Spring 2015
 	height:					57px;
 	-webkit-transform:		rotate(45deg);
 	border-radius:			70px;
+	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B71{
 	position:				absolute;
@@ -603,11 +638,13 @@ Spring 2015
 	top:					892px;
 	height:					71px;
 	-webkit-transform:		rotate(270deg);
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B72{
 	position:				absolute;
 	left:					1260px;
 	top:					800px;
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B73{
 	position:				absolute;
@@ -615,6 +652,7 @@ Spring 2015
 	top:					693px;
 	height:					71px;
 	-webkit-transform:		rotate(270deg);
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B74{
 	position:				absolute;
@@ -622,11 +660,13 @@ Spring 2015
 	top:					592px;
 	height:					71px;
 	-webkit-transform:		rotate(270deg);
+	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B75{
 	position:				absolute;
 	left:					1257px;
 	top:					500px;
+	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B76{
 	position:				absolute;
@@ -634,6 +674,7 @@ Spring 2015
 	top:					390px;
 	height:					71px;
 	-webkit-transform:		rotate(270deg);
+	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B77{
 	position:				absolute;
@@ -643,6 +684,7 @@ Spring 2015
 	width:					75px;
 	-webkit-transform:		rotate(-315deg);
 	border-radius:			70px;
+	box-shadow: 			0px 0px 5px 3px Red;
 	
 }
 #B81{
@@ -650,30 +692,35 @@ Spring 2015
 	left:					719px;
 	top:					240px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B82{
 	position:				absolute;
 	left:					820px;
 	top:					240px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B83{
 	position:				absolute;
 	left:					920px;
 	top:					240px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B84{
 	position:				absolute;
 	left:					1021px;
 	top:					240px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B85{
 	position:				absolute;
 	left:					1122px;
 	top:					240px;
 	height:					71px;
+	box-shadow: 			0px 0px 5px 3px Red;
 }
 
 #Reserve {

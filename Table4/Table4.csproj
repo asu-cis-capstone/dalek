@@ -267,6 +267,12 @@
     <Content Include="obj\Release\Package\PackageTmp\Scripts\modernizr-2.6.2.js" />
     <Content Include="obj\Release\Package\PackageTmp\Scripts\respond.js" />
     <Content Include="obj\Release\Package\PackageTmp\Scripts\respond.min.js" />
+    <None Include="obj\Release\CSAutoParameterize\transformed\Views\Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="obj\Release\CSAutoParameterize\transformed\Views\Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
     <None Include="obj\Release\Package\PackageTmp\Scripts\_references.js" />
     <Content Include="obj\Release\Package\Table4.SourceManifest.xml" />
     <Content Include="obj\Release\Table4.csproj.FileListAbsolute.txt" />
@@ -278,7 +284,9 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="obj\Release\CSAutoParameterize\original\Views\Web.config" />
     <Content Include="obj\Release\CSAutoParameterize\original\Web.config" />
-    <Content Include="obj\Release\CSAutoParameterize\transformed\Views\Web.config" />
+    <Content Include="obj\Release\CSAutoParameterize\transformed\Views\Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="obj\Release\CSAutoParameterize\transformed\Web.config" />
     <Content Include="obj\Release\DesignTimeResolveAssemblyReferencesInput.cache" />
     <Content Include="obj\Release\Package\PackageTmp\fonts\glyphicons-halflings-regular.eot" />
@@ -344,14 +352,17 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\_references.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -392,8 +403,17 @@
     <Content Include="Views\Tables\10man.cshtml" />
     <Content Include="Views\Tables\11man.cshtml" />
     <Content Include="Views\Tables\12man.cshtml" />
+    <Content Include="Views\Web.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="obj\Release\CSAutoParameterize\transformed\obj\Release\CSAutoParameterize\original\Views\" />
+    <Folder Include="obj\Release\CSAutoParameterize\transformed\obj\Release\CSAutoParameterize\transformed\Views\" />
+    <Folder Include="obj\Release\CSAutoParameterize\transformed\obj\Release\Package\PackageTmp\Views\" />
+    <Folder Include="obj\Release\CSAutoParameterize\transformed\obj\Release\TransformWebConfig\assist\" />
+    <Folder Include="obj\Release\CSAutoParameterize\transformed\obj\Release\TransformWebConfig\original\" />
+    <Folder Include="obj\Release\CSAutoParameterize\transformed\obj\Release\TransformWebConfig\transformed\" />
     <Folder Include="obj\Release\Database\" />
     <Folder Include="obj\Release\ProfileTransformWebConfig\transformed\Views\" />
     <Folder Include="obj\Release\TempPE\" />

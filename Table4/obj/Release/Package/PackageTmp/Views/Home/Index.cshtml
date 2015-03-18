@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<head>
+    <title>Floor Charts</title>
+    <link href="@Url.Content("~/Content/landingpage.css")"
+          rel="stylesheet" type="text/css" />
+
+</head>
+
+<div id="header">
+    <p>
+        <span class="m1">Select a Floor Plan</span>
+    </p>
+</div>
+
+<div id="navbars">
+
+    <table>
+        <tr><th colspan="9">Available Floor Plans</th></tr>
+        <tr>
+            <td>
+                @Html.ActionLink("4 Man Floor Plan", "Index4", "Tables")
+            </td>
+            <td>
+                @Html.ActionLink("5 Man Floor Plan", "Index5", "Tables")
+            </td>
+            <td>
+                @Html.ActionLink("6 Man Floor Plan", "Index6", "Tables")
+            </td>
+            <td>
+                @Html.ActionLink("7 Man Floor Plan", "Index7", "Tables")
+            </td>
+            <td>
+                @Html.ActionLink("8 Man Floor Plan", "Index8", "Tables")
+            </td>
+            <td>
+                @Html.ActionLink("9 Man Floor Plan", "Index9", "Tables")
+            </td>
+            <td>
+                @Html.ActionLink("10 Man Floor Plan", "Index10", "Tables")
+            </td>
+            <td>
+                @Html.ActionLink("11 Man Floor Plan", "Index11", "Tables")
+            </td>
+            <td>
+                @Html.ActionLink("12 Man Floor Plan", "Index12", "Tables")
+            </td>
+        </tr>
+    </table>
+    <div id="main">
+        <p>
+            <span class="center"><img src="images/RRLogo.jpg" alt="Yummm!" /></span>
+        </p>
+    </div>

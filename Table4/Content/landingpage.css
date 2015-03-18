@@ -1,0 +1,121 @@
+/*
+landingpage.css
+Project Dalek
+Paul VanHerpen
+Ashley Ortiz
+Sophea Soeun
+John Grijalva
+CIS-440
+Spring 2015
+*/
+
+
+
+body {
+	width: 				75%;
+	color:				red;
+	margin:				auto;
+	font-weight:		bold;
+	font-family:		Calibri, Helvetica, Verdana, Arial, sans-serif;
+	background-color:	whitesmoke;
+}
+
+#navpanel ul {
+	color:				#fff;
+	list-style:			none;
+	background-color:	#006699;
+	text-align:			left;
+	padding:			0;
+	margin:				0;
+	border:				1px solid #fff;
+	border-radius:		5px;
+	box-shadow:			1px 1px 1px 1px rgba(25, 25, 75, .5);
+}
+
+#navpanel li {
+	display:			inline-block;
+	margin-right:		-4px;
+	line-height:		40px;
+	height:				40px;
+	font-size:			1.7em;
+	padding-left:		15px;
+	padding-right:		15px;
+	padding-bottom:		3px;
+}
+
+#navpanel a {
+	color:				#fff;
+	text-decoration:	none;
+	display:			block;
+	font:				bold 14px/51px Arial, Helvetica, sans-serif;
+	transition:			.3s background-color;
+}
+#navpanel a:hover {
+	color:				red;
+}
+
+#navpanel a.active {
+	background-color:	#fff;
+	color:				#444;
+	cursor:				default;
+}
+
+.welcome {
+	font-size:			90%;
+	text-align:			right;
+}
+
+#header {
+	height:				125px;
+	font-size:			120%;
+	text-align:			center;
+	margin-bottom:		5%;
+	padding-top:		10px;
+	border-bottom:		1px solid red;
+}
+
+.m1{
+	display:			inline-block;
+	padding:			4% 10% 0% 10%;
+	font-size:			250%;
+}
+
+.left	{ float:	left; }
+
+table{
+	width: 				100%;
+	text-align:			center;
+	table-layout:		fixed;
+	margin-bottom:		4%;
+	vertical-align:		middle;
+	border-collapse:	collapse;
+	background-color:	whitesmoke;
+}
+
+table a:hover 	{ color: white; }
+table a:link	{ text-decoration: none; }
+td:hover		{ background-color: red; }
+table, th, td	{ border: 1px solid red; }
+ 
+#main{
+	margin-top: 		8%;
+	font-size:			150%;
+	text-align:			center;
+}
+
+#footer{
+	margin:				auto;
+	font-size:			60%;
+	text-align:			center;
+	border-top:			1px solid red;
+	padding-top:		1%;
+}
+
+#footer img{
+	height:				50px;
+	width:				50px;
+}
+
+a:link		{color: black; }
+a:visited	{color: gray; }
+

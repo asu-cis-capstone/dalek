@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Table4.Models.Table>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<head>
+    <title>Floor Charts</title>
+    <link href="@Url.Content("~/Content/12manFloorplan.css")"
+          rel="stylesheet" type="text/css" />
+
+</head>
+
+@using (Html.BeginForm("ChangeStatus", "Tables", FormMethod.Post, new { id = "submitForm" }))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="buttonbody">
+
+        @foreach (var item in Model)
+        {
+            if (item.status == 0)
+            {
+                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="open" id="@Html.ValueFor(m => item.tablename)" />
+            }
+
+            if (item.status == 1)
+            {
+                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="sat" id="@Html.ValueFor(m => item.tablename)" />
+            }
+
+            if (item.status == 2)
+            {
+                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="dirty" id="@Html.ValueFor(m => item.tablename)" />
+            }
+
+            if (item.status == 3)
+            {
+                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="reserved" id="@Html.ValueFor(m => item.tablename)" />
+            }
+
+
+
+        }
+
+    </div>
+}

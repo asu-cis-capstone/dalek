@@ -1,0 +1,57 @@
+﻿/*
+login.css
+Project Dalek
+Paul VanHerpen
+Ashley Ortiz
+Sophea Soeun
+John Grijalva
+CIS-440
+Spring 2015
+*/
+
+body {
+	width: 				75%;
+	margin:				auto;
+	font-weight:		bold;
+	font-family:		Calibri, Helvetica, Verdana, Arial, sans-serif;
+	background-color:	white;
+}
+
+#image {
+    width:              30%;
+    margin:             auto;      
+}
+
+#image img {
+    width:              175px;
+    height:             125px;
+    margin-top:         20px;
+    margin-bottom:      50px;
+}
+
+#loginForm {
+    width:              30%;
+	margin:				auto;
+    
+}
+#loginForm input[type=text], #loginForm input[type=password] {
+	min-width:			250px;
+	min-height:         5px;
+	border-radius:		3px;
+	padding-left:		5px;
+	font-size:			120%;
+}
+
+#loginForm input[type=submit] {
+    margin-top:         5px;
+    min-width:          250px;
+    color:              white;
+    background-color:   #5CA15C;
+}
+
+#loginForm label {
+    margin-right:       2px;
+    font-size:          120%;
+}
+
+

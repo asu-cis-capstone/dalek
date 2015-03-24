@@ -57,9 +57,8 @@ body {
 }
 
 #loginForm label {
-    margin-right:       2px;
-    margin-left:        5px;
     font-size:          110%;
+    text-align:         left;
 }
 
 

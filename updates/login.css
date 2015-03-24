@@ -50,9 +50,16 @@ body {
     background-color:   #5CA15C;
 }
 
+#loginForm input[type=checkbox] {
+    display:            inline-block;
+    float:              left;
+    width:              20px;
+}
+
 #loginForm label {
     margin-right:       2px;
-    font-size:          120%;
+    margin-left:        5px;
+    font-size:          110%;
 }
 
 

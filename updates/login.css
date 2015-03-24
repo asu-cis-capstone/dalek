@@ -4,10 +4,12 @@ Project Dalek
 Paul VanHerpen
 Ashley Ortiz
 Sophea Soeun
-John Grijalva
+Jonathan Grijalva
 CIS-440
 Spring 2015
 */
+
+
 
 body {
 	width: 				75%;
@@ -51,14 +53,13 @@ body {
 }
 
 #loginForm input[type=checkbox] {
-    display:            inline-block;
     float:              left;
     width:              20px;
 }
 
 #loginForm label {
     font-size:          110%;
-    text-align:         left;
+    margin-right:       10px;
 }
 
 

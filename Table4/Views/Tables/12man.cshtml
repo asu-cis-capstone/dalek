@@ -11,7 +11,7 @@
 
 </head>
 
-@using (Html.BeginForm("ChangeStatus", "Tables", FormMethod.Post, new { id = "submitForm" }))
+@using (Html.BeginForm("ChangeStatus12", "Tables", FormMethod.Post, new { id = "submitForm" }))
 {
     @Html.AntiForgeryToken()
 
@@ -43,5 +43,46 @@
 
         }
 
+    </div>
+
+    <div id="servers">
+        <table>
+            <tr>
+                <td>1</td>
+                <td><input type="text" name="server1"></td>
+                <td>7</td>
+                <td><input type="text" name="server6"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="text" name="server2"></td>
+                <td>8</td>
+                <td><input type="text" name="server7"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><input type="text" name="server1"></td>
+                <td>9</td>
+                <td><input type="text" name="server6"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><input type="text" name="server1"></td>
+                <td>10</td>
+                <td><input type="text" name="server6"></td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><input type="text" name="server1"></td>
+                <td>11</td>
+                <td><input type="text" name="server6"></td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><input type="text" name="server1"></td>
+                <td>12</td>
+                <td><input type="text" name="server6"></td>
+            </tr>
+        </table>
     </div>
 }

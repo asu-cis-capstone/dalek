@@ -14,31 +14,304 @@ namespace Table4.Controllers
     {
         private ApplicationDbContext db = new ApplicationDbContext();
 
+
         [HttpPost]
-        public ActionResult ChangeStatus(int? pressed)
+        public ActionResult Reserve(string press)
+        {
+            globalvar.reserveIndex = press;
+            return View("Reserve", db.Tables.ToList());
+        }
+
+        [HttpPost]
+        public ActionResult ReserveTable(int? pressed)
         {
             var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
-            if ((table.status == 0) || (table.status == 1) || (table.status == 2))
-            {
-                table.status = table.status + 1;
-                db.Entry(table).State = EntityState.Modified;
-                db.SaveChanges();
-                return RedirectToAction("Index");
-            }
-            else if (table.status == 3)
+            if (table.status == 3)
             {
                 table.status = 0;
                 db.Entry(table).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                switch (globalvar.reserveIndex)
+                {
+                    case "4":
+                        return RedirectToAction("Index4");
+                    case "5":
+                        return RedirectToAction("Index5");
+                    case "6":
+                        return RedirectToAction("Index6");
+                    case "7":
+                        return RedirectToAction("Index7");
+                    case "8":
+                        return RedirectToAction("Index8");
+                    case "9":
+                        return RedirectToAction("Index9");
+                    case "10":
+                        return RedirectToAction("Index10");
+                    case "11":
+                        return RedirectToAction("Index11");
+                    case "12":
+                        return RedirectToAction("Index12");  
+                    default:
+                        return RedirectToAction("Index12");
+                }
             }
             else
             {
-                return RedirectToAction("Index");
+                table.status = 3;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                switch (globalvar.reserveIndex)
+                {
+                    case "4":
+                        return RedirectToAction("Index4");
+                    case "5":
+                        return RedirectToAction("Index5");
+                    case "6":
+                        return RedirectToAction("Index6");
+                    case "7":
+                        return RedirectToAction("Index7");
+                    case "8":
+                        return RedirectToAction("Index8");
+                    case "9":
+                        return RedirectToAction("Index9");
+                    case "10":
+                        return RedirectToAction("Index10");
+                    case "11":
+                        return RedirectToAction("Index11");
+                    case "12":
+                        return RedirectToAction("Index12");
+                    default:
+                        return RedirectToAction("Index12");
+                }
+            }
+        }
+
+        [HttpPost]
+        public ActionResult ChangeStatus4(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index4");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index4");
+            }
+            else
+            {
+                return RedirectToAction("Index4");
             }
 
         }
 
+        [HttpPost]
+        public ActionResult ChangeStatus5(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index5");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index5");
+            }
+            else
+            {
+                return RedirectToAction("Index5");
+            }
+
+        }
+
+        [HttpPost]
+        public ActionResult ChangeStatus6(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index6");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index6");
+            }
+            else
+            {
+                return RedirectToAction("Index6");
+            }
+
+        }
+
+        [HttpPost]
+        public ActionResult ChangeStatus7(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index7");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index7");
+            }
+            else
+            {
+                return RedirectToAction("Index7");
+            }
+
+        }
+
+        [HttpPost]
+        public ActionResult ChangeStatus8(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index8");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index8");
+            }
+            else
+            {
+                return RedirectToAction("Index8");
+            }
+
+        }
+
+        [HttpPost]
+        public ActionResult ChangeStatus9(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index9");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index9");
+            }
+            else
+            {
+                return RedirectToAction("Index9");
+            }
+
+        }
+
+        [HttpPost]
+        public ActionResult ChangeStatus10(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index10");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index10");
+            }
+            else
+            {
+                return RedirectToAction("Index10");
+            }
+
+        }
+
+        [HttpPost]
+        public ActionResult ChangeStatus11(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index11");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index11");
+            }
+            else
+            {
+                return RedirectToAction("Index11");
+            }
+
+        }
+
+        [HttpPost]
+        public ActionResult ChangeStatus12(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index12");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index12");
+            }
+            else
+            {
+                return RedirectToAction("Index12");
+            }
+
+        }
+
+    
         // GET: Tables
         public ActionResult Index4()
         {

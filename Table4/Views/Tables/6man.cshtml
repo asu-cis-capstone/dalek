@@ -10,8 +10,13 @@
           rel="stylesheet" type="text/css" />
 
 </head>
+@using (Html.BeginForm("Reserve", "Tables", FormMethod.Post, new { id = "submitForm" }))
+{
+    <input type="hidden" name="press" value="6" />
+    <input type="submit" value="Reserve" style="float:right" />
+}
 
-@using (Html.BeginForm("ChangeStatus", "Tables", FormMethod.Post, new { id = "submitForm" }))
+@using (Html.BeginForm("ChangeStatus6", "Tables", FormMethod.Post, new { id = "submitForm" }))
 {
     @Html.AntiForgeryToken()
 

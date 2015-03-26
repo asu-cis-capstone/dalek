@@ -724,12 +724,13 @@ Spring 2015
 }
 
 #Reserve {
-	background-color:		blue;
-	height:					60px;
-	width:					100px;
-	position:				absolute;
-	left:					1336px;
-	top:					237px;
+    background-color: blue;
+    height: 60px;
+    width: 100px;
+    position: absolute;
+    left: 1336px;
+    top: 237px;
+}
 
 select:required { background: #ff0; }
 

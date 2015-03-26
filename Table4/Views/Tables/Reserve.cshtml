@@ -6,16 +6,17 @@
 
 <head>
     <title>Floor Charts</title>
-    <link href="@Url.Content("~/Content/11manFloorplan.css")"
+    <link href="@Url.Content("~/Content/reserve.css")"
           rel="stylesheet" type="text/css" />
 
 </head>
 
-@using (Html.BeginForm("ChangeStatus11", "Tables", FormMethod.Post, new { id = "submitForm" }))
+@using (Html.BeginForm("ReserveTable", "Tables", FormMethod.Post, new { id = "submitForm" }))
 {
     @Html.AntiForgeryToken()
 
     <div class="buttonbody">
+
 
         @foreach (var item in Model)
         {

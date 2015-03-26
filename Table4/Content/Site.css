@@ -40,8 +40,7 @@ Spring 2015
 	background-image:		url("../images/TableOutline.jpg");
 	background-repeat:		no-repeat;
 	position:				absolute;
-	height:					100%;
-	width:					80%;
+    background-position:    left 20px top 50px;
 	margin:					auto;
 }
 

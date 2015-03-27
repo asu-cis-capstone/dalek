@@ -12,11 +12,10 @@ Spring 2015
 body {
 	color:					#4169e1;
 	font-family:			Calibri, Helvetica, Arial, Sans-serif;
-	background-image:		url("../images/12manFloor.jpg");
+	background-image:		url("../images/12manFloor2C.jpg");
 	background-repeat:		no-repeat;
 	position:				absolute;
-	height:					50%;
-	width:					80%;
+
 	margin:					auto;
 }
 

@@ -12,7 +12,7 @@ Spring 2015
 body {
 	color:					#4169e1;
 	font-family:			Calibri, Helvetica, Arial, Sans-serif;
-	background-image:		url("../images/12manFloor2C.jpg");
+	background-image:		url("../images/12ManFloor2C.jpg");
 	background-repeat:		no-repeat;
 	position:				absolute;
 
@@ -21,12 +21,12 @@ body {
 
 table{
 	position:				absolute;
-	top:					700px;
+	top:					520px;
 }
 
 td {
-	height:					20px;
-	width:					20px;
+	height:					15px;
+	width:					15px;
 	text-align:				right;
 	padding-right:			1px;
 }
@@ -391,13 +391,13 @@ button {
 #B32{
 	position:				absolute;
 	left:					545px;
-	top:					503px;
+	top:					494px;
 	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B33{
 	position:				absolute;
 	left:					545px;
-	top:					458px;
+	top:					455px;
 	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B34{
@@ -496,8 +496,8 @@ button {
 }
 #B61{
 	position:				absolute;
-	left:					795px;
-	top:					603px;
+	left:					810px;
+	top:					610px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -506,8 +506,8 @@ button {
 }
 #B62{
 	position:				absolute;
-	left:					862px;
-	top:					552px;
+	left:					872px;
+	top:					562px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -516,8 +516,8 @@ button {
 }
 #B63{
 	position:				absolute;
-	left:					795px;
-	top:					508px;
+	left:					810px;
+	top:					515px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -527,8 +527,8 @@ button {
 }
 #B64{
 	position:				absolute;
-	left:					862px;
-	top:					467px;
+	left:					872px;
+	top:					477px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -537,8 +537,8 @@ button {
 }
 #B65{
 	position:				absolute;
-	left:					795px;
-	top:					423px;
+	left:					810px;
+	top:					435px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -547,8 +547,8 @@ button {
 }
 #B66{
 	position:				absolute;
-	left:					862px;
-	top:					382px;
+	left:					872px;
+	top:					392px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -557,8 +557,8 @@ button {
 }
 #B67{
 	position:				absolute;
-	left:					785px;
-	top:					338px;
+	left:					810px;
+	top:					345px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -567,8 +567,8 @@ button {
 }
 #B68{
 	position:				absolute;
-	left:					862px;
-	top:					297px;
+	left:					872px;
+	top:					307px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -577,7 +577,7 @@ button {
 }
 #B71{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					675px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);
@@ -585,13 +585,13 @@ button {
 }
 #B72{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					615px;
 	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B73{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					539px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);
@@ -599,7 +599,7 @@ button {
 }
 #B74{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					463px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);
@@ -607,13 +607,13 @@ button {
 }
 #B75{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					386px;
 	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B76{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					310px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);

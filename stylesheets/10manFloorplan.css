@@ -340,7 +340,7 @@ button {
 
 #B21{
 	position:				absolute;
-	left:					361px;
+	left:					350px;
 	top:					468px;
 	width:					38px;
 	height:					38px;
@@ -349,7 +349,7 @@ button {
 }
 #B22{
 	position:				absolute;
-	left:					371px;
+	left:					361px;
 	top:					416px;
 	width:					50px;
 	-webkit-transform:		rotate(-67deg);
@@ -357,7 +357,7 @@ button {
 }
 #B23{
 	position:				absolute;
-	left:					405px;
+	left:					395px;
 	top:					367px;
 	width:					38px;
 	height:					38px;
@@ -366,15 +366,15 @@ button {
 }
 #B24{
 	position:				absolute;
-	left:					434px;
-	top:					327px;
+	left:					420px;
+	top:					325px;
 	width:					50px;
 	-webkit-transform:		rotate(-47deg);
 	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B25{
 	position:				absolute;
-	left:					478px;
+	left:					465px;
 	top:					290px;
 	width:					38px;
 	height:					38px;
@@ -383,38 +383,38 @@ button {
 }
 #B31{
 	position:				absolute;
-	left:					467px;
+	left:					460px;
 	top:					461px;
 	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B32{
 	position:				absolute;
 	left:					545px;
-	top:					503px;
+	top:					489px;
 	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B33{
 	position:				absolute;
 	left:					545px;
-	top:					458px;
+	top:					450px;
 	box-shadow: 			0px 0px 5px 3px Blue;
 }
 #B34{
 	position:				absolute;
 	left:					545px;
-	top:					416px;
+	top:					411px;
 	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B35{
 	position:				absolute;
 	left:					545px;
-	top:					377px;
+	top:					372px;
 	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B36{
 	position:				absolute;
 	left:					545px;
-	top:					338px;
+	top:					333px;
 	box-shadow: 			0px 0px 5px 3px Yellow;
 }
 #B41{
@@ -495,8 +495,8 @@ button {
 }
 #B61{
 	position:				absolute;
-	left:					795px;
-	top:					603px;
+	left:					810px;
+	top:					610px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -505,8 +505,8 @@ button {
 }
 #B62{
 	position:				absolute;
-	left:					862px;
-	top:					552px;
+	left:					872px;
+	top:					562px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -515,8 +515,8 @@ button {
 }
 #B63{
 	position:				absolute;
-	left:					795px;
-	top:					508px;
+	left:					810px;
+	top:					515px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -526,8 +526,8 @@ button {
 }
 #B64{
 	position:				absolute;
-	left:					862px;
-	top:					467px;
+	left:					872px;
+	top:					477px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -536,8 +536,8 @@ button {
 }
 #B65{
 	position:				absolute;
-	left:					795px;
-	top:					423px;
+	left:					810px;
+	top:					435px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -546,8 +546,8 @@ button {
 }
 #B66{
 	position:				absolute;
-	left:					862px;
-	top:					382px;
+	left:					872px;
+	top:					392px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -556,8 +556,8 @@ button {
 }
 #B67{
 	position:				absolute;
-	left:					785px;
-	top:					338px;
+	left:					810px;
+	top:					345px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -566,8 +566,8 @@ button {
 }
 #B68{
 	position:				absolute;
-	left:					862px;
-	top:					297px;
+	left:					872px;
+	top:					307px;
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
@@ -576,7 +576,7 @@ button {
 }
 #B71{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					675px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);
@@ -584,13 +584,13 @@ button {
 }
 #B72{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					615px;
 	box-shadow: 			0px 0px 5px 3px Lime;
 }
 #B73{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					539px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);
@@ -598,7 +598,7 @@ button {
 }
 #B74{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					463px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);
@@ -606,13 +606,13 @@ button {
 }
 #B75{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					386px;
 	box-shadow: 			0px 0px 5px 3px Red;
 }
 #B76{
 	position:				absolute;
-	left:					965px;
+	left:					970px;
 	top:					310px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);
@@ -639,7 +639,7 @@ button {
 #B82{
 	position:				absolute;
 	left:					629px;
-	top:					182px;
+	top:					185px;
 	height:					50px;
 	box-shadow: 			0px 0px 5px 3px Yellow;
 }

@@ -9,6 +9,10 @@ CIS-440
 Spring 2015
 */
 
+/* var obj = new Timer();
+obj.Interval = 1000;
+obj.Tick = timer_tick; */
+
 function colorChange(tableNumber) {
 	//var tableClicked = document.getElementById
 	var currentColor = document.getElementById("B" + tableNumber).style.backgroundColor;
@@ -20,10 +24,13 @@ function colorChange(tableNumber) {
 	if (currentColor == "Green" || currentColor =="green" ||currentColor =="")
 	{
 		document.getElementById("B" + tableNumber).style.backgroundColor = "Yellow";
+		//obj.Start();
+
 	}
 	else if (currentColor == "Yellow" || currentColor =="yellow")
 	{
 		document.getElementById("B" + tableNumber).style.backgroundColor = "Red";
+		//obj.Stop();
 	}
 	else if (currentColor == "Red" || currentColor =="red")
 	{
@@ -121,6 +128,79 @@ function changeFloorPlan(servers) {
 	else if (servers == 12)
 	{
 		$('body').css('background-image', 'url(../images/backgrounds/header-top.jpg)');
-	}
-	
+	}	
 }
+
+/* //Declaring class timer
+var Timer = function()
+{
+	//Property: Frquency of elaspse event of the timer in milliseconds
+	this.Interval = 1000;
+	
+	//Property: Whether the timer is enabled or not
+	this.Enable = new Boolean(false);
+	
+	//Event: Timer tick
+	this.Tick;
+
+	//Variable: Hold interval id of the timer
+	var timerId = 0;
+	
+	//Variable: Hold instance of this class
+	var thisobject;
+
+	//Function: Start the timer
+	this.Start = function()
+	{
+		this.Enable = new Boolean(true);
+		
+		thisObject = this;
+		if(thisObject.Enable)
+		{
+			thisObject.timerId = setInterval(
+			function()
+			{
+				thisObject.Tick();
+			}, thisObject.Interval();
+		}
+	};
+	
+	//Function: Stops the timer
+	this.Stop = function()
+	{
+		thisObject.Enable = new Boolean(false);
+		clearInterval(thisObject.timerId);
+	};
+};
+
+function timer_tick()
+{
+	index  = index + 1;
+	document.getElementById("div1").innerHTML =index;
+	
+	if (index == 100) 
+	{
+		obj.Stop();
+	}
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

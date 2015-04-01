@@ -309,33 +309,33 @@ button {
 	left:					245px;
 	top:					617px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Grey;
 }
 #B12{
 	position:				absolute;
 	left:					330px;
 	top:					600px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Grey;
 }
 #B13{
 	position:				absolute;
 	left:					473px;
 	top:					600px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Grey;
 }
 #B14{
 	position:				absolute;
 	left:					559px;
 	top:					617px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Grey;
 }
 #B15{
 	position:				absolute;
 	left:					712px;
 	top:					705px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Grey;
 }
 
 #B21{
@@ -345,7 +345,7 @@ button {
 	width:					38px;
 	height:					38px;
 	-webkit-transform:		rotate(-80deg);
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Orchid;
 }
 #B22{
 	position:				absolute;
@@ -353,7 +353,7 @@ button {
 	top:					416px;
 	width:					50px;
 	-webkit-transform:		rotate(-67deg);
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Orchid;
 }
 #B23{
 	position:				absolute;
@@ -362,7 +362,7 @@ button {
 	width:					38px;
 	height:					38px;
 	-webkit-transform:		rotate(-58deg);
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Orchid;
 }
 #B24{
 	position:				absolute;
@@ -370,7 +370,7 @@ button {
 	top:					325px;
 	width:					50px;
 	-webkit-transform:		rotate(-47deg);
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Orchid;
 }
 #B25{
 	position:				absolute;
@@ -379,119 +379,119 @@ button {
 	width:					38px;
 	height:					38px;
 	-webkit-transform:		rotate(-37deg);
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Aqua;
 }
 #B31{
 	position:				absolute;
 	left:					460px;
 	top:					461px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Orchid;
 }
 #B32{
 	position:				absolute;
 	left:					545px;
 	top:					489px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Indigo;
 }
 #B33{
 	position:				absolute;
 	left:					545px;
 	top:					450px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Indigo;
 }
 #B34{
 	position:				absolute;
 	left:					545px;
 	top:					411px;
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Indigo;
 }
 #B35{
 	position:				absolute;
 	left:					545px;
 	top:					372px;
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Indigo;
 }
 #B36{
 	position:				absolute;
 	left:					545px;
 	top:					333px;
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Indigo;
 }
 #B41{
 	position:				absolute;
 	left:					647px;
 	top:					498px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Chocolate;
 }
 #B42{
 	position:				absolute;
 	left:					647px;
 	top:					452px;
-	box-shadow: 			0px 0px 5px 3px Blue;
+	box-shadow: 			0px 0px 5px 3px Chocolate;
 }
 #B43{
 	position:				absolute;
 	left:					647px;
 	top:					408px;
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Chocolate;
 }
 #B44{
 	position:				absolute;
 	left:					647px;
 	top:					362px;
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Chocolate;
 }
 #B45{
 	position:				absolute;
 	left:					647px;
 	top:					298px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Chocolate;
 }
 #B51{
 	position:				absolute;
 	left:					725px;
 	top:					587px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Lime;
+	box-shadow: 			0px 0px 5px 3px Navy;
 }
 #B52{
 	position:				absolute;
 	left:					725px;
 	top:					542px;
-	box-shadow: 			0px 0px 5px 3px Lime;
+	box-shadow: 			0px 0px 5px 3px Navy;
 }
 #B53{
 	position:				absolute;
 	left:					725px;
 	top:					497px;
-	box-shadow: 			0px 0px 5px 3px Lime;
+	box-shadow: 			0px 0px 5px 3px Navy;
 }
 #B54{
 	position:				absolute;
 	left:					725px;
 	top:					453px;
-	box-shadow: 			0px 0px 5px 3px Lime;
+	box-shadow: 			0px 0px 5px 3px Purple;
 }
 #B55{
 	position:				absolute;
 	left:					725px;
 	top:					408px;
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Purple;
 }
 #B56{
 	position:				absolute;
 	left:					725px;
 	top:					361px;
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Purple;
 }
 #B57{
 	position:				absolute;
 	left:					725px;
 	top:					298px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Aqua;
 }
 #B61{
 	position:				absolute;
@@ -520,7 +520,7 @@ button {
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
-	box-shadow: 			0px 0px 5px 3px Lime;
+	box-shadow: 			0px 0px 5px 3px Navy;
 
 	
 }
@@ -532,7 +532,7 @@ button {
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
 	border-radius:			70px;
-	box-shadow: 			0px 0px 5px 3px Lime;
+	box-shadow: 			0px 0px 5px 3px Navy;
 }
 #B65{
 	position:				absolute;
@@ -541,7 +541,7 @@ button {
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Orange;
 	
 }
 #B66{
@@ -552,7 +552,7 @@ button {
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
 	border-radius:			70px;
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Orange;
 }
 #B67{
 	position:				absolute;
@@ -561,7 +561,7 @@ button {
 	width:					37px;
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Purple;
 	
 }
 #B68{
@@ -572,7 +572,7 @@ button {
 	height:					37px;
 	-webkit-transform:		rotate(45deg);
 	border-radius:			70px;
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Purple;
 }
 #B71{
 	position:				absolute;
@@ -602,13 +602,13 @@ button {
 	top:					463px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);
-	box-shadow: 			0px 0px 5px 3px Lime;
+	box-shadow: 			0px 0px 5px 3px Orange;
 }
 #B75{
 	position:				absolute;
 	left:					970px;
 	top:					386px;
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Orange;
 }
 #B76{
 	position:				absolute;
@@ -616,7 +616,7 @@ button {
 	top:					310px;
 	height:					50px;
 	-webkit-transform:		rotate(270deg);
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Orange;
 }
 #B77{
 	position:				absolute;
@@ -626,7 +626,7 @@ button {
 	width:					55px;
 	-webkit-transform:		rotate(-315deg);
 	border-radius:			70px;
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Maroon;
 	
 }
 #B81{
@@ -634,35 +634,35 @@ button {
 	left:					552px;
 	top:					185px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Aqua;
 }
 #B82{
 	position:				absolute;
 	left:					629px;
 	top:					185px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Aqua;
 }
 #B83{
 	position:				absolute;
 	left:					705px;
 	top:					185px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Yellow;
+	box-shadow: 			0px 0px 5px 3px Maroon;
 }
 #B84{
 	position:				absolute;
 	left:					782px;
 	top:					185px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Maroon;
 }
 #B85{
 	position:				absolute;
 	left:					859px;
 	top:					185px;
 	height:					50px;
-	box-shadow: 			0px 0px 5px 3px Red;
+	box-shadow: 			0px 0px 5px 3px Maroon;
 }
 
 #Reserve {

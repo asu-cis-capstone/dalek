@@ -180,10 +180,10 @@
     </Content>
     <Content Include="bin\Table4.dll" />
     <Content Include="bin\Table4.pdb" />
-    <Content Include="Content\10manFloorplan.css" />
+    <Content Include="Content\100manFloorplan.css" />
     <Content Include="Content\11manFloorplan.css" />
     <Content Include="Content\12manFloorplan.css" />
-    <Content Include="Content\4manFloorplan.css" />
+    <Content Include="Content\40manFloorplan.css" />
     <Content Include="Content\5manFloorplan.css" />
     <Content Include="Content\6manFloorplan.css" />
     <Content Include="Content\7manFloorplan.css" />
@@ -192,6 +192,8 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\landingpage.css" />
+    <Content Include="Content\login.css" />
+    <Content Include="Content\reserve.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -284,7 +286,6 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Tables\Reserve.cshtml" />
-    <Content Include="Views\Tables\_Servers.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

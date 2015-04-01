@@ -3,15 +3,22 @@
 @{
     ViewBag.Title = "Index";
 }
-
+@{
+    Layout = null;
+}
 <head>
     <title>Floor Charts</title>
-    <link href="@Url.Content("~/Content/10manFloorplan.css")"
+    <link href="@Url.Content("~/Content/100manFloorplan.css")"
           rel="stylesheet" type="text/css" />
 
 </head>
+@using (Html.BeginForm("Reserve", "Tables", FormMethod.Post, new { id = "submitForm" }))
+{
+    <input type="hidden" name="press" value="10" />
+    <input type="submit" value="Reserve" style="float:right" />
+}
 
-@using (Html.BeginForm("ChangeStatus", "Tables", FormMethod.Post, new { id = "submitForm" }))
+@using (Html.BeginForm("ChangeStatus10", "Tables", FormMethod.Post, new { id = "submitForm" }))
 {
     @Html.AntiForgeryToken()
 

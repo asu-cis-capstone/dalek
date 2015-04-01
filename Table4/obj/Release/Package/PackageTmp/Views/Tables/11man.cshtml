@@ -3,7 +3,9 @@
 @{
     ViewBag.Title = "Index";
 }
-
+@{
+    Layout = null;
+}
 <head>
     <title>Floor Charts</title>
     <link href="@Url.Content("~/Content/11manFloorplan.css")"
@@ -11,7 +13,13 @@
 
 </head>
 
-@using (Html.BeginForm("ChangeStatus", "Tables", FormMethod.Post, new { id = "submitForm" }))
+@using (Html.BeginForm("Reserve", "Tables", FormMethod.Post, new { id = "submitForm" }))
+{
+    <input type="hidden" name="press" value="11" />
+    <input type="submit" value="Reserve" style="float:right" />
+}
+
+@using (Html.BeginForm("ChangeStatus11", "Tables", FormMethod.Post, new { id = "submitForm" }))
 {
     @Html.AntiForgeryToken()
 

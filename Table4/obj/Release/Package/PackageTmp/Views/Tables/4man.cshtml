@@ -4,13 +4,28 @@
     ViewBag.Title = "Index";
 }
 
+@{
+    Layout = null;
+}
+
 <head>
     <title>Floor Charts</title>
-    <link href="@Url.Content("~/Content/4manFloorplan.css")"
+    <link href="@Url.Content("~/Content/40manFloorplan.css")"
           rel="stylesheet" type="text/css" />
 
 </head>
 
+<div id="logo">
+    <p><img src="~/images/RRLogo.jpg" alt="Red Robin!" /></p>
+</div>
+
+<div id="Reserve">
+@using (Html.BeginForm("Reserve", "Tables",FormMethod.Post, new { id = "submitForm" }))
+{
+    <input type="hidden" name="press" value="4" />
+    <input type="submit" value="Reserve"  />
+}
+</div>
 @using (Html.BeginForm("ChangeStatus4", "Tables", FormMethod.Post, new { id = "submitForm" }))
 {
     @Html.AntiForgeryToken()

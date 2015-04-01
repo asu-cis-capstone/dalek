@@ -16,6 +16,23 @@ namespace Table4.Controllers
 
 
         [HttpPost]
+        public ActionResult Servers()
+        {
+            globalvar.Server1 = "Mike";
+            ViewBag.Server1 = globalvar.Server1;
+            ViewBag.Server2 = globalvar.Server2;
+            ViewBag.Server3 = globalvar.Server3;
+            ViewBag.Server4 = globalvar.Server4;
+            ViewBag.Server5 = globalvar.Server5;
+            ViewBag.Server6 = globalvar.Server6;
+            ViewBag.Server7 = globalvar.Server7;
+            ViewBag.Server8 = globalvar.Server8;
+            ViewBag.Server9 = globalvar.Server9;
+
+            return PartialView("_Servers");
+        }
+
+        [HttpPost]
         public ActionResult Reserve(string press)
         {
             globalvar.reserveIndex = press;
@@ -84,6 +101,20 @@ namespace Table4.Controllers
                         return RedirectToAction("Index12");
                 }
             }
+        }
+
+        [HttpPost]
+        public ActionResult ResetTable()
+        {
+            var tablelist = db.Tables.ToList();
+            foreach (var item in tablelist)
+            {
+                item.status = 0;
+                db.Entry(item).State = EntityState.Modified;
+                db.SaveChanges();
+                return View("Index");
+            }
+            return RedirectToAction("Index4");
         }
 
         [HttpPost]

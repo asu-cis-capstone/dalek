@@ -1,4 +1,4 @@
-/*
+﻿/*
 4manFloorplan.css
 Project Dalek
 Paul VanHerpen
@@ -12,10 +12,10 @@ Spring 2015
 body {
 	color:					#4169e1;
 	font-family:			Calibri, Helvetica, Arial, Sans-serif;
-	background-image:		url("../images/4manFloor.jpg");
+	background-image:		url("../images/TableOutline.jpg");
 	background-repeat:		no-repeat;
 	position:				absolute;
-    background-position:    left 20px top 50px;
+    background-position:    left 18px top 50px;
 	margin:					auto;
 }
 

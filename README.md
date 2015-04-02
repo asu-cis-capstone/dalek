@@ -13,11 +13,12 @@ Dalek is a tool that improves restaurant hospitality organization, communication
 
 ##Getting Started
 **System Requirements [In Development]**
-* MySQL
-* JavaScript
-* HTML
-* PHP
-* WAMP Server
+* Microsft SQL Server
+* ASP.net/MVC 5
+* Microsoft Azure
+  + HTML
+  + JavaScript
+  + Cascading Style Sheet
 
 **How to Install [for Developers]**
 
@@ -33,7 +34,8 @@ Dalek is a tool that improves restaurant hospitality organization, communication
   - Version 0.2: Present the technology stack that will be used throughout the project. 
   - Version 0.3: Present a simple prototype and get feedback from persepective users. 
   - Version 0.4: Present a project overview with a working prototype. To see our overview please use this link: http://www.youtube.com/watch?v=SCkqG3pm7zk&sns=em
-  - Version 0.5: **In Development**
+  - Version 0.5: Present an updated project and showcase the new features that were developed.
+  - Version 0.6: **In Development**
   
 ##List of Contributors
 * Paul VanHerpen

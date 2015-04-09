@@ -20,10 +20,10 @@
 </div>
 
 <div id="Reserve">
-@using (Html.BeginForm("Reserve", "Tables",FormMethod.Post, new { id = "submitForm" }))
+@using (Html.BeginForm("Reserve", "Tables", FormMethod.Post, new { id = "reserveForm" }))
 {
     <input type="hidden" name="press" value="4" />
-    <input type="submit" value="Reserve"  />
+    <input type="submit" value="Reserve" style="float:right"   />
 }
 </div>
 @using (Html.BeginForm("ChangeStatus4", "Tables", FormMethod.Post, new { id = "submitForm" }))
@@ -59,5 +59,30 @@
 
         }
 
+    </div>
+    <div id="servers">
+        <table>
+            <tr>
+                <td>1</td>
+                <td><input type="text" name="server1"></td>
+
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="text" name="server2"></td>
+
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><input type="text" name="server1"></td>
+
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><input type="text" name="server1"></td>
+
+            </tr>
+
+        </table>
     </div>
 }

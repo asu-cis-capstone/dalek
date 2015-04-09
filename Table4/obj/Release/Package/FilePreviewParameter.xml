@@ -9,5 +9,6 @@
   </parameter>
   <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=tcp:waospyc87i.database.windows.net,1433;Initial Catalog=tabler_db;User Id=dalek@waospyc87i;Password=Capstone440" tags="">
     <parameterEntry kind="XmlFile" scope="C:\\Users\\Dragon\ Paladin\\Documents\\Visual\ Studio\ 2013\\Projects\\Table4\\Table4\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Dragon\ Paladin\\Documents\\Visual\ Studio\ 2013\\Projects\\Table4\\Table4\\obj\\Release\\Package\\PackageTmp\\bin\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
 </parameters>

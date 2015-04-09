@@ -12,45 +12,85 @@
           rel="stylesheet" type="text/css" />
 
 </head>
-
-@using (Html.BeginForm("Reserve", "Tables", FormMethod.Post, new { id = "submitForm" }))
-{
-    <input type="hidden" name="press" value="9" />
-    <input type="submit" value="Reserve" style="float:right" />
-}
-
-
-@using (Html.BeginForm("ChangeStatus9", "Tables", FormMethod.Post, new { id = "submitForm" }))
-{
-    @Html.AntiForgeryToken()
-
-    <div class="buttonbody">
-
-        @foreach (var item in Model)
-        {
-            if (item.status == 0)
-            {
-                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="open" id="@Html.ValueFor(m => item.tablename)" />
-            }
-
-            if (item.status == 1)
-            {
-                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="sat" id="@Html.ValueFor(m => item.tablename)" />
-            }
-
-            if (item.status == 2)
-            {
-                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="dirty" id="@Html.ValueFor(m => item.tablename)" />
-            }
-
-            if (item.status == 3)
-            {
-                <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="reserved" id="@Html.ValueFor(m => item.tablename)" />
-            }
-
-
-
-        }
-
+<div id="logo">
+    <p><img src="~/images/RRLogo.jpg" alt="Red Robin!" /></p>
+</div>
+<div id="Reserve">
+    @using (Html.BeginForm("Reserve", "Tables", FormMethod.Post, new { id = "reserveForm" }))
+    {
+        <input type="hidden" name="press" value="9" />
+        <input type="submit" value="Reserve" style="float:right" />
+    }
     </div>
-}
+
+    @using (Html.BeginForm("ChangeStatus9", "Tables", FormMethod.Post, new { id = "submitForm" }))
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="buttonbody">
+
+            @foreach (var item in Model)
+            {
+                if (item.status == 0)
+                {
+                    <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="open" id="@Html.ValueFor(m => item.tablename)" />
+                }
+
+                if (item.status == 1)
+                {
+                    <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="sat" id="@Html.ValueFor(m => item.tablename)" />
+                }
+
+                if (item.status == 2)
+                {
+                    <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="dirty" id="@Html.ValueFor(m => item.tablename)" />
+                }
+
+                if (item.status == 3)
+                {
+                    <input type="submit" name="pressed" value="@Html.DisplayFor(m => item.number)" class="reserved" id="@Html.ValueFor(m => item.tablename)" />
+                }
+
+
+
+            }
+
+        </div>
+    <div id="servers">
+        <table>
+            <tr>
+                <td>1</td>
+                <td><input type="text" name="server1"></td>
+                <td>7</td>
+                <td><input type="text" name="server6"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td><input type="text" name="server2"></td>
+                <td>8</td>
+                <td><input type="text" name="server7"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td><input type="text" name="server1"></td>
+                <td>9</td>
+                <td><input type="text" name="server6"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td><input type="text" name="server1"></td>
+
+            </tr>
+            <tr>
+                <td>5</td>
+                <td><input type="text" name="server1"></td>
+
+            </tr>
+            <tr>
+                <td>6</td>
+                <td><input type="text" name="server1"></td>
+
+            </tr>
+        </table>
+    </div>
+    }

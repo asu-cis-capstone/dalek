@@ -11,6 +11,10 @@
 
 </head>
 
+<div id="logo">
+    <p><img src="~/images/RRLogo.jpg" alt="Red Robin!" /></p>
+</div>
+
 @using (Html.BeginForm("ReserveTable", "Tables", FormMethod.Post, new { id = "submitForm" }))
 {
     @Html.AntiForgeryToken()

@@ -67,7 +67,19 @@ namespace Table4.Controllers
                     case "11":
                         return RedirectToAction("Index11");
                     case "12":
-                        return RedirectToAction("Index12");  
+                        return RedirectToAction("Index12");
+                    case "13":
+                        return RedirectToAction("Index13");
+                    case "14":
+                        return RedirectToAction("Index14");
+                    case "15":
+                        return RedirectToAction("Index15");
+                    case "16":
+                        return RedirectToAction("Index16");
+                    case "17":
+                        return RedirectToAction("Index17");
+                    case "18":
+                        return RedirectToAction("Index18");
                     default:
                         return RedirectToAction("Index12");
                 }

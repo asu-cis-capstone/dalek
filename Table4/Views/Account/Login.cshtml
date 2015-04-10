@@ -24,58 +24,56 @@
                 @Html.ActionLink("Project Dalek", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
+                <ul class="nav navbar-nav"></ul>
                 @Html.Partial("_LoginPartial")
             </div>
         </div>
     </div>
 
-                <!-- The Login Form Begins Here -->
-                @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
-                {
-                    @Html.AntiForgeryToken()
-                
+    <!-- The Login Form Begins Here -->
+    @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+    {
+        @Html.AntiForgeryToken()
+
                     <!-- Page Heading Begins Here -->
-                    <div id="image">
-                        <span class="center"><img src="~/images/RRLogo.jpg" alt="Yummm!" /></span>
-                    </div>
+        <div id="image">
+            <span class="center"><img src="~/images/RRLogo.jpg" alt="Yummm!" /></span>
+        </div>
 
                     <!-- The Login Function Begins Here -->
-                    <div id="loginForm">
-                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        <div id="loginForm">
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
 
-                    <!-- Email is Here -->
-                    <div class="form-group">
-                        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
-                        <div class="col-md-10">
-                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
-                        </div>
+            <!-- Email is Here -->
+            <div class="form-group">
+                @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- Password is here -->
+            <div class="form-group">
+                @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
+                <div class="col-md-10">
+                    @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <!-- Remember Me is here -->
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <div class="checkbox">
+                        @Html.CheckBoxFor(m => m.RememberMe)
+                        @Html.LabelFor(m => m.RememberMe)
                     </div>
+                </div>
+            </div>
 
-                    <!-- Password is here -->
-                    <div class="form-group">
-                        @Html.LabelFor(m => m.Password, new { @class = "col-md-2 control-label" })
-                        <div class="col-md-10">
-                            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
-                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
-                        </div>
-                    </div>
+            <!-- This is the submit button -->
+            <input type="submit" value="Log In" class="btn btn-default" />
 
-                    <!-- Remember Me is here -->
-                    <div class="form-group">
-                        <div class="col-md-offset-2 col-md-10">
-                            <div class="checkbox">
-                                @Html.CheckBoxFor(m => m.RememberMe)
-                                @Html.LabelFor(m => m.RememberMe)
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- This is the submit button -->
-                    <input type="submit" value="Log In" class="btn btn-default" />
-
-                    </div>
-                }
-</body>
+        </div>
+    }

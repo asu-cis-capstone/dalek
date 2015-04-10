@@ -13,11 +13,11 @@ Spring 2015
 
 body {
 	width: 				75%;
-	color:				red;
+	color:				#e82727;
 	margin:				auto;
 	font-weight:		bold;
 	font-family:		Calibri, Helvetica, Verdana, Arial, sans-serif;
-	background-color:	whitesmoke;
+	background-color:	white;
 }
 
 #navpanel ul {
@@ -51,7 +51,7 @@ body {
 	transition:			.3s background-color;
 }
 #navpanel a:hover {
-	color:				red;
+	color:				#e82727;
 }
 
 #navpanel a.active {
@@ -78,9 +78,11 @@ body {
 	display:			inline-block;
 	padding:			4% 10% 0% 10%;
 	font-size:			250%;
+    text-align:         center;
 }
 
-.left	{ float:	left; }
+.m2     { text-align: center; }
+.left	{ float: left; }
 
 table{
 	width: 				100%;
@@ -89,7 +91,7 @@ table{
 	margin-bottom:		4%;
 	vertical-align:		middle;
 	border-collapse:	collapse;
-	background-color:	whitesmoke;
+	background-color:	white;
 }
 
 table a:hover 	{ color: white; }
@@ -99,21 +101,8 @@ table, th, td	{ border: 1px solid red; }
  
 #main{
 	margin-top: 		8%;
-	font-size:			150%;
+	font-size:			100%;
 	text-align:			center;
-}
-
-#footer{
-	margin:				auto;
-	font-size:			60%;
-	text-align:			center;
-	border-top:			1px solid red;
-	padding-top:		1%;
-}
-
-#footer img{
-	height:				50px;
-	width:				50px;
 }
 
 a:link		{color: black; }

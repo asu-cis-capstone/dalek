@@ -97,6 +97,18 @@ namespace Table4.Controllers
                         return RedirectToAction("Index11");
                     case "12":
                         return RedirectToAction("Index12");
+                    case "13":
+                        return RedirectToAction("Index13");
+                    case "14":
+                        return RedirectToAction("Index14");
+                    case "15":
+                        return RedirectToAction("Index15");
+                    case "16":
+                        return RedirectToAction("Index16");
+                    case "17":
+                        return RedirectToAction("Index17");
+                    case "18":
+                        return RedirectToAction("Index18");
                     default:
                         return RedirectToAction("Index12");
                 }
@@ -342,6 +354,146 @@ namespace Table4.Controllers
 
         }
 
+        public ActionResult ChangeStatus13(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index13");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index13");
+            }
+            else
+            {
+                return RedirectToAction("Index13");
+            }
+
+        }
+        public ActionResult ChangeStatus14(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index14");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index14");
+            }
+            else
+            {
+                return RedirectToAction("Index14");
+            }
+
+        }
+
+        public ActionResult ChangeStatus15(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index15");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index15");
+            }
+            else
+            {
+                return RedirectToAction("Index15");
+            }
+
+        }
+        public ActionResult ChangeStatus16(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index16");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index16");
+            }
+            else
+            {
+                return RedirectToAction("Index16");
+            }
+
+        }
+        public ActionResult ChangeStatus17(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index17");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index17");
+            }
+            else
+            {
+                return RedirectToAction("Index17");
+            }
+
+        }
+
+        public ActionResult ChangeStatus18(int? pressed)
+        {
+            var table = db.Tables.Where(t => t.number == pressed).FirstOrDefault();
+            if ((table.status == 0) || (table.status == 1))
+            {
+                table.status = table.status + 1;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index18");
+            }
+            else if (table.status == 2)
+            {
+                table.status = 0;
+                db.Entry(table).State = EntityState.Modified;
+                db.SaveChanges();
+                return RedirectToAction("Index18");
+            }
+            else
+            {
+                return RedirectToAction("Index18");
+            }
+
+        }
     
         // GET: Tables
         public ActionResult Index4()
@@ -379,6 +531,30 @@ namespace Table4.Controllers
         public ActionResult Index12()
         {
             return View("12man", db.Tables.ToList());
+        }
+        public ActionResult Index13()
+        {
+            return View("7man3C", db.Tables.ToList());
+        }
+        public ActionResult Index14()
+        {
+            return View("8man3C", db.Tables.ToList());
+        }
+        public ActionResult Index15()
+        {
+            return View("9man3C", db.Tables.ToList());
+        }
+        public ActionResult Index16()
+        {
+            return View("10man3C", db.Tables.ToList());
+        }
+        public ActionResult Index17()
+        {
+            return View("11man3C", db.Tables.ToList());
+        }
+        public ActionResult Index18()
+        {
+            return View("12man3C", db.Tables.ToList());
         }
 
         // GET: Tables/Details/5

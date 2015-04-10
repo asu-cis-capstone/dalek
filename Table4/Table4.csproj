@@ -181,14 +181,20 @@
     <Content Include="bin\Table4.dll" />
     <Content Include="bin\Table4.pdb" />
     <Content Include="Content\100manFloorplan.css" />
+    <Content Include="Content\100manFloorplan3C.css" />
     <Content Include="Content\11manFloorplan.css" />
+    <Content Include="Content\11manFloorplan3C.css" />
     <Content Include="Content\12manFloorplan.css" />
+    <Content Include="Content\12manFloorplan3C.css" />
     <Content Include="Content\40manFloorplan.css" />
     <Content Include="Content\5manFloorplan.css" />
     <Content Include="Content\6manFloorplan.css" />
     <Content Include="Content\7manFloorplan.css" />
+    <Content Include="Content\7manFloorplan3C.css" />
     <Content Include="Content\8manFloorplan.css" />
+    <Content Include="Content\8manFloorplan3C.css" />
     <Content Include="Content\9manFloorplan.css" />
+    <Content Include="Content\9manFloorplan3C.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\landingpage.css" />
@@ -302,6 +308,12 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Views\Tables\Reserve.cshtml" />
+    <Content Include="Views\Tables\7man3C.cshtml" />
+    <Content Include="Views\Tables\8man3C.cshtml" />
+    <Content Include="Views\Tables\9man3C.cshtml" />
+    <Content Include="Views\Tables\10man3C.cshtml" />
+    <Content Include="Views\Tables\11man3C.cshtml" />
+    <Content Include="Views\Tables\12man3C.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>

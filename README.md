@@ -36,6 +36,7 @@ Dalek is a tool that improves restaurant hospitality organization, communication
   - Version 0.4: Present a project overview with a working prototype. To see our overview please use this link: http://www.youtube.com/watch?v=SCkqG3pm7zk&sns=em
   - Version 0.5: Present an updated project and showcase the new features that were developed.
   - Version 0.6: Present 10 test cases of a mixture of automated and manual testing. To look at our tests, click the folder **tests** under our **master** branch.
+  - Version 0.7: **In developement**
   
 ##List of Contributors
 * Paul VanHerpen

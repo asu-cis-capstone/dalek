@@ -1,13 +1,17 @@
 Test Cases for Project Dalek
 Team Members: Paul, Sophea, Ashley, John
 
-1. Button changes from green to yellow
-2. Button changes from yellow to red
-3. Button changes from red to green
-4. Login is valid email
-5. Login matches database
-6. Password matches database
-7. Clicking a reserve button will change button from green to blue
-8. Button changes from blue to yellow to seat the reserved table
-9. 
-10.
+1. When viewing a floor chart, clicking on a table that is green will change the color to yellow
+2. When viewing a floor chart, clicking on a table that is yellow will change the color to red
+3. When viewing a floor chart, clicking on a table that is red will change the color to green
+4. When logging into the website, it will only accept a username in the format of a valid e-mail address and will alert
+    the user in JS "The Email field is not a valid e-mail address."
+5. When logging into the website, if the user provides an invalid username, it will display a red message in Javascript
+    declaring "Invalid login attempt."
+6. When logging into the website, if the user provides an invalid password, it will display a red message in Javascript
+    declaring "Invalid login attempt."
+7. When logging into the website, if the user provides an valid username and invalid password, it will display a red message
+    in Javascript declaring "Invalid login attempt." 
+8. When viewing a floor chart, clicking on the reserve button will allow 1 table to cycle from red/green/yellow to blue
+9. When viewing a floor chart, clicking on a blue table will do nothing
+10. When vewing a floor chart, clicking on the reserve button will allow 1 table to cycle from Blue to green

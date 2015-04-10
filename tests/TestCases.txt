@@ -1,13 +1,13 @@
 Test Cases for Project Dalek
 Team Members: Paul, Sophea, Ashley, John
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1. Button changes from green to yellow
+2. Button changes from yellow to red
+3. Button changes from red to green
+4. Login is valid email
+5. Login matches database
+6. Password matches database
+7. Clicking a reserve button will change button from green to blue
+8. Button changes from blue to yellow to seat the reserved table
+9. 
 10.
